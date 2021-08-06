@@ -2,73 +2,92 @@ import json
 import glob
 import config
    
-def prepare_config(user_args):
-
-  # ensure that model directory ends with "/"
-  if user_args["model_dir"][-1] == "/":pass 
-  else: user_args["model_dir"] = user_args["model_dir"] + "/"
-  # ensure that data directory ends with "/"
-  if user_args["data_dir"][-1] == "/":pass 
-  else: user_args["data_dir"] = user_args["data_dir"] + "/"
-  
-  # passed arguments
-  dataset = user_args["dataset"]
-
+def prepare_config(user_args, stage):
 
   with open('config/model_config.json', 'r') as f:
       model_args = json.load(f)
 
-  args = model_args[dataset]
-
-  model_dir = user_args["model_dir"] 
-  user_args["data_dir"] = user_args["data_dir"] + dataset + "/data/"
-  data_dir = user_args["data_dir"]
-
-  save_path = model_dir + dataset + "/"
 
   ## preparing an argument to help for data processing for different tasks
-  if dataset in ["evinf", "multirc"]: user_args["query"] = True
+  if user_args["dataset"] in ["evinf", "multirc"]: user_args["query"] = True
   else: user_args["query"] = False
 
-  # save rationales and rationale models in :  
-  # save_dir 
+  args = model_args[user_args["dataset"]]
 
   cwd = os.getcwd() + "/"
 
+  user_args["data_dir"] = os.path.join(
+    cwd,
+    user_args["data_dir"], 
+    user_args["dataset"], 
+    "data",
+    ""
+  )
 
+  if (stage == "retrain" and user_args["saliency_scorer"]):
+
+    save_path = os.path.join(
+      cwd,
+      user_args["model_dir"],
+      user_args["dataset"],
+      user_args["thresholder"],
+      ""
+    )
+
+  else:
+
+    save_path = os.path.join(
+      cwd,
+      user_args["model_dir"],
+      user_args["dataset"],
+      ""
+    )  
+      
+  # save rationales and rationale models in :  
+  # save_dir 
   if "evaluation_dir" in user_args:
 
-    if user_args["evaluation_dir"][-1] == "/":pass 
-    else: user_args["evaluation_dir"] = user_args["evaluation_dir"] + "/"
-   
-    evaluation_dir = cwd + user_args["evaluation_dir"] + user_args["dataset"] + "/"
-
-  else: evaluation_dir = None
+    user_args["evaluation_dir"] = os.path.join(
+      cwd,
+      user_args["evaluation_dir"],
+      user_args["dataset"],
+      ""
+    )    
+    
+  else: user_args["evaluation_dir"] = None
 
   if "extracted_rationale_dir" in user_args:
 
-    if user_args["extracted_rationale_dir"][-1] == "/":pass 
-    else: user_args["extracted_rationale_dir"] = user_args["extracted_rationale_dir"] + "/"
+    user_args["extracted_rationale_dir"] = os.path.join(
+      cwd,
+      user_args["extracted_rationale_dir"],
+      user_args["dataset"],
+      "data",
+      ""
+    )
 
-    extracted_rationale_dir = cwd + user_args["extracted_rationale_dir"] + user_args["dataset"] + "/data/"
-
-  else: extracted_rationale_dir = None
+  else: user_args["extracted_rationale_dir"]  = None
 
   if "rationale_model_dir" in user_args:
 
-    rationale_model_dir = cwd + user_args["model_dir"] + user_args["dataset"] + "/"
-  
-  else: rationale_model_dir = None
+    user_args["rationale_model_dir"] = os.path.join(
+      cwd,
+      user_args["model_dir"],
+      user_args["dataset"],
+      ""
+    )
+
+  else: user_args["rationale_model_dir"] = None
 
 
   args = dict(user_args, **args, **{
             "epochs":model_args["epochs"], 
             "save_path":save_path, 
-            "data_directory" : cwd + data_dir, 
-            "extracted_rationale_dir" : extracted_rationale_dir,
-            "rationale_model_dir": rationale_model_dir,
+            "data_directory" : user_args["data_dir"], 
+            "extracted_rationale_dir" : user_args["extracted_rationale_dir"],
+            "rationale_model_dir": user_args["rationale_model_dir"],
             "model_abbreviation": model_args["model_abbreviation"][args["model"]],
-            "evaluation_dir": evaluation_dir
+            "evaluation_dir": user_args["evaluation_dir"]
   })
 
   return save_path, args
@@ -90,7 +109,7 @@ def checks_on_local_args(stage, local_args):
     new_args["retrain"] = False
     new_args["train"] = True
     
-    new_args["epochs"] =  10
+    new_args["epochs"] =  local_args["epochs"]
 
   if stage == "retrain":
 
@@ -149,7 +168,7 @@ def make_folders(save_path, args, stage):
 
 def initial_preparations(user_args, stage):
 
-    save_path, args = prepare_config(user_args)
+    save_path, args = prepare_config(user_args, stage)
 
     make_folders(save_path, args, stage)
 

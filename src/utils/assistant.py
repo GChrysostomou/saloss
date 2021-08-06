@@ -7,6 +7,8 @@ import numpy as np
 import math
 import json 
 
+import torch
+
 import config.cfg
 from config.cfg import AttrDict
 
@@ -120,79 +122,6 @@ def encode_it(tokenizer, max_length, *arguments):
     return dic
 
 
-# import torch
-
-# def wpiece2word(tokenizer, sentence, weights, print_err = False):    
-    
-#     """
-#     converts word-piece ids to words and
-#     importance scores/weights for word-pieces to importance scores/weights
-#     for words by aggregating them
-#     """
-
-#     tokens = tokenizer.convert_ids_to_tokens(sentence)
-#     strings = tokenizer.convert_tokens_to_string(tokens)
-
-#     tokens = " ".join(tokens)
-
-#     unique_words = {}
-#     new_weights = {}
-  
-#     for i in range(len(tokens.split())):
-        
-#         if i < len(tokens.split())-1:
-            
-#             w = tokens.split()[i]
-#             next_w = tokens.split()[i+1]
-          
-#             if "#" in next_w:
-
-#                 if "#" not in w:
-                    
-#                     rec = i
-
-#                     unique_words[rec] = w
-#                     length = 1
-#                     new_weights[rec] = weights[i].item()
-                    
-#             if "#" in w:
-                
-#                 unique_words[rec] += w.split("#")[-1] 
-#                 new_weights[rec] += weights[i].item()
-#                 length += 1
-                
-#         else:
-            
-#             w = tokens.split()[i]
-            
-#             if "#" in w:
-                
-#                 unique_words[rec] += w.split("#")[-1] 
-#                 new_weights[rec] += weights[i].item()
-#                 length += 1
-                
-#             else:
-                
-#                 pass
-   
-#     returned_scores = torch.zeros(len(strings.split()))
-#     unique_words = {v:k for k,v in unique_words.items()}
- 
-#     for i, w in enumerate(strings.split()):
-   
-#         if w in tokens.split():
-
-#             returned_scores[i] = weights[i]
-
-#         else:
-
-#             idx = unique_words[w] 
-#             returned_scores[i] = new_weights[idx]
-
-#     return np.asarray(strings.split()), returned_scores
-
-
-import torch
 
 def wpiece2word(tokenizer, sentence, weights, print_err = False):  
 
@@ -227,6 +156,19 @@ def wpiece2word(tokenizer, sentence, weights, print_err = False):
 
     return np.asarray(list(new_words.values())), torch.tensor(list(new_score.values()))
 
+device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+
+def batch_from_dict_(batch_data, metadata, target_key):
+    
+    new_tensor = []
+
+    for _id_ in batch_data["annotation_id"]:
+
+        new_tensor.append(
+            metadata[_id_][target_key]
+        )
+
+    return torch.tensor(new_tensor).to(device)
 
 import re
 def wpiece2word_r(tokenizer, sentence, weights, print_err = False):    

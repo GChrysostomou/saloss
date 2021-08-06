@@ -21,6 +21,7 @@ with open(config.cfg.config_directory + 'instance_config.json', 'r') as f:
 from src.models.bert import bert
 from src.evaluation.built_in.scorer import conduct_experiments_
 from src.evaluation.built_in.importance_extractor import extractor
+from src.extractor.rationalizer import register_importance_
 
 
 class evaluate():
@@ -40,7 +41,7 @@ class evaluate():
         if args["saliency_scorer"] is None: sal_scorer = ""
         else: sal_scorer = args["saliency_scorer"] + "_"
 
-        assert args["saliency_scorer"] in {"tfidf", "textrank", "chisquared"}
+        assert args["saliency_scorer"] in {None, "tfidf", "textrank", "chisquared"}
 
         current_model = glob.glob(args["save_path"] + sal_scorer + args["model_abbreviation"] + "*.pt")[0]
         
@@ -67,6 +68,12 @@ class evaluate():
 
 
         for data_split, dataloader in {"test" : data.test_loader , "dev" : data.dev_loader}.items():
+            
+            register_importance_(
+                model = self.model,
+                data = dataloader,
+                data_split_name = data_split
+            )
 
             conduct_experiments_(
                 model = self.model, 

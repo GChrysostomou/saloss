@@ -4,7 +4,7 @@ import json
 from tqdm import trange
 import numpy as np
 import pandas as pd
-
+from src.utils.assistant import batch_from_dict_
 import config.cfg
 from config.cfg import AttrDict
 
@@ -51,7 +51,7 @@ def register_flips_(model, model_inputs, ranking, original_prediction, original_
                 pass
 
 
-
+import os
 
 def conduct_experiments_(model, data, save_path, data_split_name):
 
@@ -65,6 +65,9 @@ def conduct_experiments_(model, data, save_path, data_split_name):
             saves the results to a json file under save_path
     """
 
+    if args["saliency_scorer"]: sal_scorer = args["saliency_scorer"] + "-"
+    else: sal_scorer = ""
+
     pbar = trange(
         len(data) * data.batch_size, 
         desc=f"running experiments for fraction of tokens on -> {data_split_name}", 
@@ -73,6 +76,27 @@ def conduct_experiments_(model, data, save_path, data_split_name):
     
 
     flip_results = {}
+
+    ## now to create folder where results will be loaded from
+    fname = os.path.join(
+        os.getcwd(),
+        args["extracted_rationale_dir"],
+        "importance_scores",
+        ""
+    )
+
+    os.makedirs(fname, exist_ok = True)
+
+    scorenames = f"{fname}{data_split_name}-{sal_scorer}importance_scores.npy"
+
+    ## check if importance scores exist first 
+    if os.path.exists(scorenames):
+
+        importance_scores = np.load(scorenames, allow_pickle = True).item()
+
+    else:
+
+        raise FileNotFoundError(f"importance scores not found in -> {scorenames}")
 
     for batch in data:
         
@@ -98,60 +122,14 @@ def conduct_experiments_(model, data, save_path, data_split_name):
         original_prediction, attentions =  model(**inputs)
 
         original_prediction.max(-1)[0].sum().backward(retain_graph = True)
-
-        #embedding gradients
-        embed_grad = model.bert_model.model.embeddings.word_embeddings.weight.grad
-        g = embed_grad[inputs["sentences"].long()][:,:max(inputs["lengths"])]
-
-        # cutting to length to save time
-        attentions = attentions[:,:max(inputs["lengths"])]
-        query_mask = inputs["query_mask"][:,:max(inputs["lengths"])]
-
-        em = model.bert_model.model.embeddings.word_embeddings.weight[inputs["sentences"].long()][:,:max(inputs["lengths"])]
-
-        gradients = (g* em).sum(-1).abs() * query_mask.float()
-
-        integrated_grads = model.integrated_grads(
-                original_grad = g, 
-                original_pred = original_prediction.max(-1),
-                **inputs    
-        )
-
-        # normalised integrated gradients of input
-        normalised_ig = model.normalise_scores(integrated_grads * query_mask.float(), inputs["sentences"][:, :max(inputs["lengths"])])
-
-        # normalised gradients of input
-        normalised_grads = model.normalise_scores(gradients, inputs["sentences"][:, :max(inputs["lengths"])])
-
-        # normalised attention
-        normalised_attentions = model.normalise_scores(attentions * query_mask.float(), inputs["sentences"][:, :max(inputs["lengths"])])
-
-        # retrieving attention*attention_grad
-        attention_gradients = model.weights_or.grad[:,:,0,:].mean(1)[:,:max(inputs["lengths"])]
         
-        normalised_attention_grads =  model.normalise_scores(attentions * attention_gradients * query_mask.float(), inputs["sentences"][:, :max(inputs["lengths"])])
         
-        # softmaxing due to negative attention gradients 
-        # therefore we receive also negative values and as such
-        # the pad and unwanted tokens need to be converted to -inf 
-        normalised_attention_grads = torch.masked_fill(normalised_attention_grads, model.normalised_mask, float("-inf"))
-
-              
         top_rand = torch.randn(attentions.shape).to(device)
         # softmaxing due to negative random weights
         # therefore we receive also negative values and as such
         # the pad and unwanted tokens need to be converted to -inf 
+        top_rand = model.normalise_scores((top_rand * inputs["query_mask"].float())[:, :max(inputs["lengths"])],  inputs["sentences"][:, :max(inputs["lengths"])])
         top_rand = torch.masked_fill(top_rand, model.normalised_mask, float("-inf"))
-
-        top_rand = torch.topk(top_rand, k = attentions.size(1))[1].to(device)
-
-        normalised_grads = torch.topk(normalised_grads, k = normalised_grads.size(1))[1].to(device)
-            
-        normalised_attentions = torch.topk(normalised_attentions, k = normalised_attentions.size(1))[1].to(device)
-        
-        normalised_attention_grads = torch.topk(normalised_attention_grads, k = normalised_attention_grads.size(1))[1].to(device)
-
-        normalised_ig = torch.topk(normalised_ig, k = normalised_ig.size(1))[1].to(device)
 
         ### lets speed it up and search every 5\%
         maximum = max(inputs["lengths"])
@@ -164,24 +142,30 @@ def conduct_experiments_(model, data, save_path, data_split_name):
         original_sentences = inputs["sentences"].clone().detach()
         
 
-        used_for_iter = {
-            "attention" : normalised_attentions,
-            "gradients" : normalised_grads,
-            "scaled attention" : normalised_attention_grads,
-            "ig" : normalised_ig, 
-            "random" : top_rand,
-        }
-
         with torch.no_grad():
+            
+            for feat_name in {"random", "attention", "gradients", "scaled attention", "ig"}:
+                
+                if feat_name != "random":
 
-            for no_of_tokens in range(0,maximum+increments, increments):
+                    feat_score =  batch_from_dict_(
+                            batch_data = inputs, 
+                            metadata = importance_scores, 
+                            target_key = feat_name,
+                        )
+                
+                else:
 
-                for feat_name, feat_score in used_for_iter.items():
+                    feat_score = top_rand
+
+                feat_rank = torch.topk(feat_score, k = feat_score.size(1))[1].to(device)
+
+                for no_of_tokens in range(0,maximum+increments, increments):
 
                     register_flips_(
                         model = model, 
                         model_inputs = inputs, 
-                        ranking = feat_score, 
+                        ranking = feat_rank, 
                         original_prediction = original_prediction, 
                         original_sentences = original_sentences, 
                         rows = rows, 
@@ -198,15 +182,12 @@ def conduct_experiments_(model, data, save_path, data_split_name):
     ## it means we reached the max so fraction of is 1.
     for annot_id in flip_results.keys():
 
-        for feat_name in used_for_iter.keys():
+        for feat_name in {"random", "attention", "gradients", "scaled attention", "ig"}:
 
             if feat_name not in flip_results[annot_id]:
 
                 flip_results[annot_id][feat_name] = 1.
     
-
-    if args["saliency_scorer"]: sal_scorer = args["saliency_scorer"] + "-"
-    else: sal_scorer = ""
 
     with open(f"{save_path}{sal_scorer}{data_split_name}-fraction-of.json", "w") as file:
 

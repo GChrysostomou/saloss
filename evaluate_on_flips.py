@@ -43,6 +43,14 @@ parser.add_argument(
 )
 
 parser.add_argument(
+    "-extracted_rationale_dir",   
+    type = str, 
+    help = "directory to save extracted_rationales", 
+    default = "extracted_rationales/"
+)
+
+
+parser.add_argument(
     "-evaluation_dir",   
     type = str, 
     help = "directory to save decision flips", 

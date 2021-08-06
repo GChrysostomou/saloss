@@ -2,13 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import torch
-import torch.nn as nn
-import torch.optim as optim
-import os, sys
-import numpy as np
-import pandas as pd
+import os
 import argparse
-import json
 import logging
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
