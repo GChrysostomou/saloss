@@ -1,0 +1,6106 @@
+{
+    "dev_811": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_364": {
+        "attention": 0.3333333333333333,
+        "gradients": 0.3333333333333333,
+        "scaled attention": 0.3333333333333333,
+        "ig": 0.3333333333333333,
+        "random": 0.3333333333333333
+    },
+    "dev_683": {
+        "attention": 0.25,
+        "scaled attention": 0.25,
+        "random": 0.25,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_812": {
+        "gradients": 0.25,
+        "ig": 0.25,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_556": {
+        "gradients": 0.4,
+        "ig": 0.4,
+        "random": 0.4,
+        "attention": 0.6,
+        "scaled attention": 0.6
+    },
+    "dev_335": {
+        "gradients": 0.16666666666666666,
+        "scaled attention": 0.16666666666666666,
+        "random": 0.16666666666666666,
+        "attention": 0.5,
+        "ig": 0.5
+    },
+    "dev_617": {
+        "attention": 0.16666666666666666,
+        "scaled attention": 0.16666666666666666,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_530": {
+        "attention": 0.16666666666666666,
+        "gradients": 0.16666666666666666,
+        "ig": 0.16666666666666666,
+        "random": 0.3333333333333333,
+        "scaled attention": 0.5
+    },
+    "dev_302": {
+        "attention": 0.5,
+        "scaled attention": 0.5,
+        "ig": 0.5,
+        "gradients": 0.6666666666666666,
+        "random": 0.6666666666666666
+    },
+    "dev_420": {
+        "attention": 0.3333333333333333,
+        "scaled attention": 0.3333333333333333,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_843": {
+        "attention": 0.16666666666666666,
+        "gradients": 0.16666666666666666,
+        "ig": 0.16666666666666666,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_558": {
+        "ig": 0.42857142857142855,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_855": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_518": {
+        "attention": 0.14285714285714285,
+        "scaled attention": 0.14285714285714285,
+        "gradients": 0.2857142857142857,
+        "random": 0.42857142857142855,
+        "ig": 1.0
+    },
+    "dev_459": {
+        "attention": 0.14285714285714285,
+        "ig": 0.14285714285714285,
+        "scaled attention": 0.2857142857142857,
+        "gradients": 0.42857142857142855,
+        "random": 0.5714285714285714
+    },
+    "dev_351": {
+        "attention": 0.42857142857142855,
+        "scaled attention": 0.42857142857142855,
+        "gradients": 0.5714285714285714,
+        "random": 0.7142857142857143,
+        "ig": 1.0
+    },
+    "dev_703": {
+        "attention": 0.2857142857142857,
+        "gradients": 0.2857142857142857,
+        "scaled attention": 0.42857142857142855,
+        "random": 0.42857142857142855,
+        "ig": 1.0
+    },
+    "dev_134": {
+        "ig": 0.42857142857142855,
+        "attention": 0.5714285714285714,
+        "gradients": 0.5714285714285714,
+        "scaled attention": 0.5714285714285714,
+        "random": 0.5714285714285714
+    },
+    "dev_309": {
+        "scaled attention": 0.2857142857142857,
+        "attention": 0.42857142857142855,
+        "ig": 0.42857142857142855,
+        "random": 0.42857142857142855,
+        "gradients": 0.5714285714285714
+    },
+    "dev_482": {
+        "gradients": 0.42857142857142855,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_43": {
+        "attention": 0.42857142857142855,
+        "scaled attention": 0.42857142857142855,
+        "gradients": 0.5714285714285714,
+        "random": 0.5714285714285714,
+        "ig": 0.8571428571428571
+    },
+    "dev_346": {
+        "attention": 0.14285714285714285,
+        "scaled attention": 0.14285714285714285,
+        "gradients": 0.42857142857142855,
+        "ig": 0.42857142857142855,
+        "random": 0.42857142857142855
+    },
+    "dev_481": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_531": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_103": {
+        "attention": 0.42857142857142855,
+        "gradients": 0.42857142857142855,
+        "scaled attention": 0.42857142857142855,
+        "ig": 0.42857142857142855,
+        "random": 0.42857142857142855
+    },
+    "dev_568": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_584": {
+        "attention": 0.2857142857142857,
+        "scaled attention": 0.2857142857142857,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_2": {
+        "attention": 0.42857142857142855,
+        "scaled attention": 0.42857142857142855,
+        "gradients": 0.7142857142857143,
+        "ig": 0.7142857142857143,
+        "random": 0.7142857142857143
+    },
+    "dev_727": {
+        "attention": 0.14285714285714285,
+        "gradients": 0.14285714285714285,
+        "scaled attention": 0.14285714285714285,
+        "ig": 0.14285714285714285,
+        "random": 1.0
+    },
+    "dev_729": {
+        "attention": 0.14285714285714285,
+        "scaled attention": 0.14285714285714285,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_21": {
+        "attention": 0.42857142857142855,
+        "scaled attention": 0.42857142857142855,
+        "random": 0.42857142857142855,
+        "gradients": 0.5714285714285714,
+        "ig": 0.8571428571428571
+    },
+    "dev_735": {
+        "gradients": 0.14285714285714285,
+        "ig": 0.14285714285714285,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_675": {
+        "attention": 0.125,
+        "gradients": 0.125,
+        "scaled attention": 0.125,
+        "ig": 0.125,
+        "random": 0.125
+    },
+    "dev_96": {
+        "attention": 0.375,
+        "scaled attention": 0.375,
+        "random": 0.5,
+        "gradients": 0.625,
+        "ig": 0.625
+    },
+    "dev_171": {
+        "attention": 0.375,
+        "random": 0.375,
+        "gradients": 0.5,
+        "scaled attention": 0.5,
+        "ig": 0.5
+    },
+    "dev_766": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_490": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_661": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_854": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_663": {
+        "attention": 0.125,
+        "scaled attention": 0.125,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_749": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_714": {
+        "scaled attention": 0.375,
+        "attention": 0.5,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_40": {
+        "attention": 0.5,
+        "scaled attention": 0.5,
+        "gradients": 0.625,
+        "random": 0.625,
+        "ig": 0.875
+    },
+    "dev_127": {
+        "attention": 0.25,
+        "gradients": 0.25,
+        "scaled attention": 0.375,
+        "ig": 0.5,
+        "random": 0.625
+    },
+    "dev_389": {
+        "attention": 0.375,
+        "scaled attention": 0.375,
+        "ig": 0.375,
+        "random": 0.5,
+        "gradients": 0.75
+    },
+    "dev_233": {
+        "attention": 0.125,
+        "scaled attention": 0.125,
+        "ig": 0.125,
+        "gradients": 0.25,
+        "random": 0.625
+    },
+    "dev_199": {
+        "gradients": 0.125,
+        "scaled attention": 0.125,
+        "attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_609": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_641": {
+        "attention": 0.25,
+        "scaled attention": 0.25,
+        "random": 0.375,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_526": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_863": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_840": {
+        "attention": 0.125,
+        "gradients": 0.125,
+        "ig": 0.125,
+        "scaled attention": 0.375,
+        "random": 1.0
+    },
+    "dev_179": {
+        "attention": 0.5,
+        "gradients": 0.5,
+        "scaled attention": 0.5,
+        "ig": 0.5,
+        "random": 0.625
+    },
+    "dev_545": {
+        "attention": 0.3333333333333333,
+        "random": 0.3333333333333333,
+        "gradients": 0.4444444444444444,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_807": {
+        "attention": 0.1111111111111111,
+        "random": 0.1111111111111111,
+        "gradients": 0.2222222222222222,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_554": {
+        "attention": 0.1111111111111111,
+        "gradients": 0.1111111111111111,
+        "scaled attention": 0.1111111111111111,
+        "ig": 0.1111111111111111,
+        "random": 0.1111111111111111
+    },
+    "dev_131": {
+        "attention": 0.3333333333333333,
+        "scaled attention": 0.3333333333333333,
+        "gradients": 0.4444444444444444,
+        "random": 0.5555555555555556,
+        "ig": 0.6666666666666666
+    },
+    "dev_525": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_391": {
+        "attention": 0.4444444444444444,
+        "gradients": 0.4444444444444444,
+        "scaled attention": 0.4444444444444444,
+        "ig": 0.4444444444444444,
+        "random": 0.7777777777777778
+    },
+    "dev_467": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_289": {
+        "attention": 0.3333333333333333,
+        "ig": 0.4444444444444444,
+        "gradients": 0.5555555555555556,
+        "scaled attention": 0.6666666666666666,
+        "random": 0.7777777777777778
+    },
+    "dev_836": {
+        "gradients": 0.3333333333333333,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_702": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_279": {
+        "attention": 0.1111111111111111,
+        "scaled attention": 0.1111111111111111,
+        "ig": 0.1111111111111111,
+        "gradients": 0.2222222222222222,
+        "random": 0.7777777777777778
+    },
+    "dev_185": {
+        "attention": 0.1111111111111111,
+        "gradients": 0.1111111111111111,
+        "scaled attention": 0.1111111111111111,
+        "ig": 0.1111111111111111,
+        "random": 0.1111111111111111
+    },
+    "dev_398": {
+        "random": 0.2222222222222222,
+        "attention": 0.3333333333333333,
+        "scaled attention": 0.4444444444444444,
+        "gradients": 0.6666666666666666,
+        "ig": 0.8888888888888888
+    },
+    "dev_763": {
+        "scaled attention": 0.2222222222222222,
+        "ig": 0.2222222222222222,
+        "attention": 0.3333333333333333,
+        "gradients": 0.3333333333333333,
+        "random": 0.4444444444444444
+    },
+    "dev_170": {
+        "attention": 0.1111111111111111,
+        "gradients": 0.3333333333333333,
+        "ig": 0.4444444444444444,
+        "scaled attention": 0.5555555555555556,
+        "random": 0.5555555555555556
+    },
+    "dev_4": {
+        "attention": 0.3333333333333333,
+        "gradients": 0.4444444444444444,
+        "scaled attention": 0.4444444444444444,
+        "ig": 0.7777777777777778,
+        "random": 0.7777777777777778
+    },
+    "dev_466": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_261": {
+        "attention": 0.1111111111111111,
+        "gradients": 0.1111111111111111,
+        "scaled attention": 0.1111111111111111,
+        "ig": 0.1111111111111111,
+        "random": 0.3333333333333333
+    },
+    "dev_403": {
+        "ig": 0.1111111111111111,
+        "random": 0.1111111111111111,
+        "gradients": 0.2222222222222222,
+        "attention": 0.3333333333333333,
+        "scaled attention": 0.4444444444444444
+    },
+    "dev_720": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_246": {
+        "scaled attention": 0.1,
+        "attention": 0.3,
+        "random": 0.3,
+        "gradients": 0.6,
+        "ig": 0.9
+    },
+    "dev_292": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_274": {
+        "attention": 0.4,
+        "gradients": 0.4,
+        "scaled attention": 0.4,
+        "random": 0.4,
+        "ig": 0.5
+    },
+    "dev_311": {
+        "ig": 0.2,
+        "attention": 0.3,
+        "scaled attention": 0.6,
+        "gradients": 0.7,
+        "random": 0.7
+    },
+    "dev_308": {
+        "attention": 0.1,
+        "gradients": 0.1,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_107": {
+        "scaled attention": 0.4,
+        "ig": 0.4,
+        "attention": 0.5,
+        "random": 0.6,
+        "gradients": 0.8
+    },
+    "dev_473": {
+        "attention": 0.4,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_521": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_834": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_402": {
+        "attention": 0.3,
+        "scaled attention": 0.3,
+        "gradients": 0.5,
+        "random": 0.5,
+        "ig": 0.9
+    },
+    "dev_414": {
+        "attention": 0.5,
+        "scaled attention": 0.5,
+        "random": 0.6,
+        "gradients": 0.8,
+        "ig": 0.9
+    },
+    "dev_454": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_486": {
+        "attention": 0.1,
+        "ig": 0.1,
+        "random": 0.1,
+        "gradients": 0.2,
+        "scaled attention": 0.7
+    },
+    "dev_229": {
+        "attention": 0.2,
+        "random": 0.2,
+        "gradients": 0.4,
+        "scaled attention": 0.4,
+        "ig": 0.6
+    },
+    "dev_566": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_252": {
+        "attention": 0.4,
+        "scaled attention": 0.4,
+        "random": 0.6,
+        "gradients": 0.8,
+        "ig": 0.9
+    },
+    "dev_730": {
+        "attention": 0.1,
+        "gradients": 0.2,
+        "ig": 0.2,
+        "random": 0.2,
+        "scaled attention": 0.3
+    },
+    "dev_706": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_788": {
+        "attention": 0.1,
+        "scaled attention": 0.1,
+        "ig": 0.6,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_701": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_662": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_124": {
+        "attention": 0.18181818181818182,
+        "gradients": 0.18181818181818182,
+        "ig": 0.18181818181818182,
+        "random": 0.18181818181818182,
+        "scaled attention": 0.5454545454545454
+    },
+    "dev_126": {
+        "gradients": 0.09090909090909091,
+        "ig": 0.09090909090909091,
+        "scaled attention": 0.2727272727272727,
+        "attention": 0.36363636363636365,
+        "random": 0.45454545454545453
+    },
+    "dev_428": {
+        "attention": 0.45454545454545453,
+        "scaled attention": 0.45454545454545453,
+        "ig": 0.5454545454545454,
+        "random": 0.5454545454545454,
+        "gradients": 0.7272727272727273
+    },
+    "dev_210": {
+        "ig": 0.09090909090909091,
+        "attention": 0.18181818181818182,
+        "gradients": 0.2727272727272727,
+        "scaled attention": 0.6363636363636364,
+        "random": 0.6363636363636364
+    },
+    "dev_339": {
+        "attention": 0.45454545454545453,
+        "gradients": 0.45454545454545453,
+        "scaled attention": 0.45454545454545453,
+        "ig": 0.7272727272727273,
+        "random": 0.7272727272727273
+    },
+    "dev_488": {
+        "attention": 0.09090909090909091,
+        "scaled attention": 0.45454545454545453,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_698": {
+        "attention": 0.09090909090909091,
+        "gradients": 0.09090909090909091,
+        "random": 0.09090909090909091,
+        "scaled attention": 0.18181818181818182,
+        "ig": 0.2727272727272727
+    },
+    "dev_366": {
+        "attention": 0.2727272727272727,
+        "ig": 0.45454545454545453,
+        "gradients": 0.5454545454545454,
+        "random": 0.5454545454545454,
+        "scaled attention": 0.6363636363636364
+    },
+    "dev_484": {
+        "attention": 0.09090909090909091,
+        "random": 0.09090909090909091,
+        "gradients": 0.18181818181818182,
+        "ig": 0.18181818181818182,
+        "scaled attention": 1.0
+    },
+    "dev_369": {
+        "attention": 0.2727272727272727,
+        "scaled attention": 0.2727272727272727,
+        "random": 0.36363636363636365,
+        "ig": 0.45454545454545453,
+        "gradients": 0.6363636363636364
+    },
+    "dev_643": {
+        "attention": 0.2727272727272727,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_472": {
+        "attention": 0.09090909090909091,
+        "scaled attention": 0.09090909090909091,
+        "gradients": 0.5454545454545454,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_186": {
+        "attention": 0.36363636363636365,
+        "gradients": 0.36363636363636365,
+        "random": 0.36363636363636365,
+        "ig": 0.45454545454545453,
+        "scaled attention": 0.5454545454545454
+    },
+    "dev_470": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_693": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_397": {
+        "attention": 0.36363636363636365,
+        "gradients": 0.36363636363636365,
+        "scaled attention": 0.45454545454545453,
+        "random": 0.45454545454545453,
+        "ig": 0.8181818181818182
+    },
+    "dev_399": {
+        "attention": 0.18181818181818182,
+        "scaled attention": 0.18181818181818182,
+        "random": 0.2727272727272727,
+        "gradients": 0.45454545454545453,
+        "ig": 0.5454545454545454
+    },
+    "dev_465": {
+        "attention": 0.2727272727272727,
+        "scaled attention": 0.2727272727272727,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_852": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_440": {
+        "attention": 0.18181818181818182,
+        "scaled attention": 0.36363636363636365,
+        "random": 0.45454545454545453,
+        "ig": 0.5454545454545454,
+        "gradients": 0.7272727272727273
+    },
+    "dev_313": {
+        "attention": 0.2727272727272727,
+        "scaled attention": 0.36363636363636365,
+        "random": 0.45454545454545453,
+        "gradients": 0.6363636363636364,
+        "ig": 0.8181818181818182
+    },
+    "dev_25": {
+        "attention": 0.36363636363636365,
+        "scaled attention": 0.36363636363636365,
+        "gradients": 0.45454545454545453,
+        "ig": 0.45454545454545453,
+        "random": 0.5454545454545454
+    },
+    "dev_614": {
+        "ig": 0.09090909090909091,
+        "attention": 0.18181818181818182,
+        "gradients": 0.36363636363636365,
+        "scaled attention": 0.36363636363636365,
+        "random": 1.0
+    },
+    "dev_286": {
+        "attention": 0.45454545454545453,
+        "scaled attention": 0.45454545454545453,
+        "random": 0.5454545454545454,
+        "gradients": 0.6363636363636364,
+        "ig": 0.8181818181818182
+    },
+    "dev_247": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_572": {
+        "attention": 0.18181818181818182,
+        "gradients": 0.2727272727272727,
+        "scaled attention": 0.2727272727272727,
+        "ig": 0.45454545454545453,
+        "random": 1.0
+    },
+    "dev_742": {
+        "scaled attention": 0.09090909090909091,
+        "attention": 0.18181818181818182,
+        "ig": 0.5454545454545454,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_717": {
+        "attention": 0.09090909090909091,
+        "scaled attention": 0.09090909090909091,
+        "gradients": 0.2727272727272727,
+        "ig": 0.2727272727272727,
+        "random": 0.45454545454545453
+    },
+    "dev_104": {
+        "attention": 0.36363636363636365,
+        "gradients": 0.45454545454545453,
+        "scaled attention": 0.45454545454545453,
+        "ig": 0.45454545454545453,
+        "random": 0.45454545454545453
+    },
+    "dev_585": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_237": {
+        "attention": 0.3333333333333333,
+        "scaled attention": 0.3333333333333333,
+        "ig": 0.3333333333333333,
+        "gradients": 0.5833333333333334,
+        "random": 0.6666666666666666
+    },
+    "dev_218": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_393": {
+        "scaled attention": 0.3333333333333333,
+        "attention": 0.4166666666666667,
+        "gradients": 0.4166666666666667,
+        "random": 0.4166666666666667,
+        "ig": 0.5
+    },
+    "dev_394": {
+        "random": 0.25,
+        "ig": 0.4166666666666667,
+        "gradients": 0.5833333333333334,
+        "attention": 1.0,
+        "scaled attention": 1.0
+    },
+    "dev_146": {
+        "scaled attention": 0.3333333333333333,
+        "random": 0.3333333333333333,
+        "attention": 0.4166666666666667,
+        "ig": 0.5,
+        "gradients": 0.75
+    },
+    "dev_513": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_82": {
+        "attention": 0.3333333333333333,
+        "ig": 0.3333333333333333,
+        "scaled attention": 0.4166666666666667,
+        "gradients": 0.5,
+        "random": 0.6666666666666666
+    },
+    "dev_151": {
+        "random": 0.25,
+        "attention": 0.4166666666666667,
+        "gradients": 0.4166666666666667,
+        "scaled attention": 0.4166666666666667,
+        "ig": 0.9166666666666666
+    },
+    "dev_652": {
+        "scaled attention": 0.08333333333333333,
+        "attention": 0.16666666666666666,
+        "gradients": 0.25,
+        "random": 0.3333333333333333,
+        "ig": 1.0
+    },
+    "dev_669": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_450": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_775": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_99": {
+        "attention": 0.5833333333333334,
+        "scaled attention": 0.5833333333333334,
+        "random": 0.6666666666666666,
+        "gradients": 0.75,
+        "ig": 1.0
+    },
+    "dev_80": {
+        "gradients": 0.4166666666666667,
+        "attention": 0.5,
+        "random": 0.75,
+        "scaled attention": 0.8333333333333334,
+        "ig": 0.8333333333333334
+    },
+    "dev_101": {
+        "attention": 0.16666666666666666,
+        "scaled attention": 0.25,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_24": {
+        "attention": 0.3333333333333333,
+        "gradients": 0.3333333333333333,
+        "scaled attention": 0.3333333333333333,
+        "ig": 0.3333333333333333,
+        "random": 0.8333333333333334
+    },
+    "dev_234": {
+        "scaled attention": 0.16666666666666666,
+        "attention": 0.25,
+        "ig": 0.3333333333333333,
+        "random": 0.3333333333333333,
+        "gradients": 0.5
+    },
+    "dev_206": {
+        "attention": 0.4166666666666667,
+        "scaled attention": 0.4166666666666667,
+        "random": 0.5833333333333334,
+        "gradients": 0.6666666666666666,
+        "ig": 0.75
+    },
+    "dev_485": {
+        "attention": 0.25,
+        "scaled attention": 0.25,
+        "random": 0.3333333333333333,
+        "gradients": 0.4166666666666667,
+        "ig": 0.4166666666666667
+    },
+    "dev_258": {
+        "random": 0.3333333333333333,
+        "ig": 0.4166666666666667,
+        "attention": 0.5,
+        "scaled attention": 0.5,
+        "gradients": 0.5833333333333334
+    },
+    "dev_712": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_64": {
+        "attention": 0.5,
+        "scaled attention": 0.5,
+        "ig": 0.5,
+        "gradients": 0.6666666666666666,
+        "random": 0.75
+    },
+    "dev_331": {
+        "gradients": 0.08333333333333333,
+        "scaled attention": 0.08333333333333333,
+        "random": 0.08333333333333333,
+        "attention": 0.16666666666666666,
+        "ig": 0.16666666666666666
+    },
+    "dev_856": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_691": {
+        "ig": 0.5384615384615384,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_30": {
+        "attention": 0.38461538461538464,
+        "scaled attention": 0.38461538461538464,
+        "random": 0.5384615384615384,
+        "gradients": 0.7692307692307693,
+        "ig": 0.8461538461538461
+    },
+    "dev_800": {
+        "attention": 0.23076923076923078,
+        "scaled attention": 0.3076923076923077,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_174": {
+        "attention": 0.15384615384615385,
+        "scaled attention": 0.15384615384615385,
+        "gradients": 0.46153846153846156,
+        "random": 0.5384615384615384,
+        "ig": 0.7692307692307693
+    },
+    "dev_264": {
+        "attention": 0.3076923076923077,
+        "gradients": 0.3076923076923077,
+        "random": 0.38461538461538464,
+        "ig": 0.6923076923076923,
+        "scaled attention": 0.7692307692307693
+    },
+    "dev_23": {
+        "attention": 0.38461538461538464,
+        "scaled attention": 0.38461538461538464,
+        "gradients": 0.6153846153846154,
+        "random": 0.6153846153846154,
+        "ig": 0.6923076923076923
+    },
+    "dev_688": {
+        "scaled attention": 0.07692307692307693,
+        "ig": 0.07692307692307693,
+        "attention": 0.23076923076923078,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_222": {
+        "scaled attention": 0.23076923076923078,
+        "ig": 0.23076923076923078,
+        "attention": 0.3076923076923077,
+        "gradients": 0.38461538461538464,
+        "random": 0.5384615384615384
+    },
+    "dev_223": {
+        "attention": 0.38461538461538464,
+        "scaled attention": 0.38461538461538464,
+        "ig": 0.46153846153846156,
+        "gradients": 0.5384615384615384,
+        "random": 0.5384615384615384
+    },
+    "dev_754": {
+        "gradients": 0.07692307692307693,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_848": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_839": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_280": {
+        "ig": 0.38461538461538464,
+        "scaled attention": 0.46153846153846156,
+        "attention": 0.5384615384615384,
+        "random": 0.5384615384615384,
+        "gradients": 0.7692307692307693
+    },
+    "dev_337": {
+        "attention": 0.5384615384615384,
+        "scaled attention": 0.6923076923076923,
+        "ig": 0.6923076923076923,
+        "gradients": 0.8461538461538461,
+        "random": 0.8461538461538461
+    },
+    "dev_231": {
+        "attention": 0.3076923076923077,
+        "gradients": 0.46153846153846156,
+        "scaled attention": 0.5384615384615384,
+        "ig": 0.5384615384615384,
+        "random": 0.6153846153846154
+    },
+    "dev_696": {
+        "attention": 0.07692307692307693,
+        "gradients": 0.07692307692307693,
+        "scaled attention": 0.07692307692307693,
+        "ig": 0.07692307692307693,
+        "random": 0.23076923076923078
+    },
+    "dev_385": {
+        "scaled attention": 0.07692307692307693,
+        "ig": 0.07692307692307693,
+        "attention": 0.23076923076923078,
+        "gradients": 0.23076923076923078,
+        "random": 1.0
+    },
+    "dev_709": {
+        "attention": 0.07692307692307693,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_430": {
+        "attention": 0.38461538461538464,
+        "scaled attention": 0.6153846153846154,
+        "ig": 0.6153846153846154,
+        "gradients": 0.7692307692307693,
+        "random": 0.7692307692307693
+    },
+    "dev_821": {
+        "attention": 0.46153846153846156,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_630": {
+        "attention": 0.15384615384615385,
+        "scaled attention": 0.15384615384615385,
+        "ig": 0.23076923076923078,
+        "gradients": 0.38461538461538464,
+        "random": 0.6923076923076923
+    },
+    "dev_165": {
+        "attention": 0.46153846153846156,
+        "scaled attention": 0.46153846153846156,
+        "random": 0.46153846153846156,
+        "ig": 0.5384615384615384,
+        "gradients": 0.6923076923076923
+    },
+    "dev_119": {
+        "ig": 0.07692307692307693,
+        "random": 0.07692307692307693,
+        "gradients": 0.15384615384615385,
+        "attention": 0.6153846153846154,
+        "scaled attention": 0.6923076923076923
+    },
+    "dev_139": {
+        "attention": 0.38461538461538464,
+        "ig": 0.38461538461538464,
+        "scaled attention": 0.46153846153846156,
+        "random": 0.46153846153846156,
+        "gradients": 0.6153846153846154
+    },
+    "dev_823": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_573": {
+        "scaled attention": 0.15384615384615385,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_605": {
+        "scaled attention": 0.5384615384615384,
+        "random": 0.5384615384615384,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_434": {
+        "scaled attention": 0.07692307692307693,
+        "attention": 0.3076923076923077,
+        "random": 0.38461538461538464,
+        "gradients": 0.5384615384615384,
+        "ig": 0.6153846153846154
+    },
+    "dev_638": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_537": {
+        "random": 0.23076923076923078,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_471": {
+        "scaled attention": 0.38461538461538464,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_640": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_155": {
+        "attention": 0.3076923076923077,
+        "scaled attention": 0.38461538461538464,
+        "random": 0.5384615384615384,
+        "gradients": 0.6923076923076923,
+        "ig": 0.9230769230769231
+    },
+    "dev_72": {
+        "gradients": 0.38461538461538464,
+        "ig": 0.46153846153846156,
+        "attention": 0.5384615384615384,
+        "scaled attention": 0.5384615384615384,
+        "random": 0.7692307692307693
+    },
+    "dev_358": {
+        "scaled attention": 0.5714285714285714,
+        "random": 0.5714285714285714,
+        "attention": 0.6428571428571429,
+        "ig": 0.7142857142857143,
+        "gradients": 0.7857142857142857
+    },
+    "dev_792": {
+        "attention": 0.21428571428571427,
+        "gradients": 0.42857142857142855,
+        "ig": 0.5,
+        "scaled attention": 0.6428571428571429,
+        "random": 1.0
+    },
+    "dev_166": {
+        "attention": 0.35714285714285715,
+        "random": 0.5,
+        "scaled attention": 0.5714285714285714,
+        "gradients": 0.6428571428571429,
+        "ig": 0.7142857142857143
+    },
+    "dev_348": {
+        "attention": 0.21428571428571427,
+        "random": 0.42857142857142855,
+        "scaled attention": 0.5,
+        "gradients": 0.7857142857142857,
+        "ig": 0.7857142857142857
+    },
+    "dev_522": {
+        "attention": 0.07142857142857142,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_112": {
+        "attention": 0.14285714285714285,
+        "scaled attention": 0.14285714285714285,
+        "random": 0.35714285714285715,
+        "gradients": 0.5714285714285714,
+        "ig": 0.5714285714285714
+    },
+    "dev_628": {
+        "random": 0.14285714285714285,
+        "gradients": 0.21428571428571427,
+        "ig": 0.21428571428571427,
+        "attention": 0.2857142857142857,
+        "scaled attention": 0.2857142857142857
+    },
+    "dev_625": {
+        "random": 0.2857142857142857,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_220": {
+        "attention": 0.14285714285714285,
+        "scaled attention": 0.14285714285714285,
+        "gradients": 0.35714285714285715,
+        "ig": 0.42857142857142855,
+        "random": 0.42857142857142855
+    },
+    "dev_505": {
+        "attention": 0.07142857142857142,
+        "gradients": 0.07142857142857142,
+        "scaled attention": 0.07142857142857142,
+        "ig": 0.07142857142857142,
+        "random": 1.0
+    },
+    "dev_71": {
+        "attention": 0.14285714285714285,
+        "scaled attention": 0.14285714285714285,
+        "gradients": 0.5,
+        "random": 0.7142857142857143,
+        "ig": 0.9285714285714286
+    },
+    "dev_639": {
+        "random": 0.42857142857142855,
+        "ig": 0.6428571428571429,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0
+    },
+    "dev_830": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_724": {
+        "ig": 0.5714285714285714,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_813": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_557": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_448": {
+        "attention": 0.5,
+        "ig": 0.5714285714285714,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_828": {
+        "scaled attention": 0.21428571428571427,
+        "ig": 0.2857142857142857,
+        "random": 0.2857142857142857,
+        "attention": 0.42857142857142855,
+        "gradients": 0.42857142857142855
+    },
+    "dev_543": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_540": {
+        "attention": 0.14285714285714285,
+        "scaled attention": 0.14285714285714285,
+        "random": 0.21428571428571427,
+        "gradients": 0.42857142857142855,
+        "ig": 1.0
+    },
+    "dev_37": {
+        "gradients": 0.07142857142857142,
+        "scaled attention": 0.07142857142857142,
+        "ig": 0.07142857142857142,
+        "random": 0.21428571428571427,
+        "attention": 0.35714285714285715
+    },
+    "dev_276": {
+        "attention": 0.21428571428571427,
+        "scaled attention": 0.5714285714285714,
+        "gradients": 0.6428571428571429,
+        "random": 0.6428571428571429,
+        "ig": 0.8571428571428571
+    },
+    "dev_395": {
+        "attention": 0.14285714285714285,
+        "gradients": 0.21428571428571427,
+        "scaled attention": 0.21428571428571427,
+        "random": 0.42857142857142855,
+        "ig": 1.0
+    },
+    "dev_468": {
+        "attention": 0.14285714285714285,
+        "ig": 0.2857142857142857,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_285": {
+        "attention": 0.21428571428571427,
+        "random": 0.42857142857142855,
+        "ig": 0.5714285714285714,
+        "scaled attention": 0.7857142857142857,
+        "gradients": 0.8571428571428571
+    },
+    "dev_597": {
+        "attention": 0.5,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_737": {
+        "scaled attention": 0.07142857142857142,
+        "attention": 0.14285714285714285,
+        "ig": 0.21428571428571427,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_808": {
+        "attention": 0.2857142857142857,
+        "gradients": 0.42857142857142855,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_297": {
+        "attention": 0.26666666666666666,
+        "gradients": 0.4,
+        "scaled attention": 0.4,
+        "ig": 0.4666666666666667,
+        "random": 0.4666666666666667
+    },
+    "dev_307": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_550": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_303": {
+        "attention": 0.2,
+        "gradients": 0.2,
+        "scaled attention": 0.2,
+        "ig": 0.2,
+        "random": 0.3333333333333333
+    },
+    "dev_266": {
+        "attention": 0.2,
+        "random": 0.26666666666666666,
+        "gradients": 0.6,
+        "scaled attention": 0.6666666666666666,
+        "ig": 0.7333333333333333
+    },
+    "dev_114": {
+        "scaled attention": 0.26666666666666666,
+        "ig": 0.3333333333333333,
+        "random": 0.4,
+        "gradients": 0.4666666666666667,
+        "attention": 0.6666666666666666
+    },
+    "dev_221": {
+        "attention": 0.4,
+        "scaled attention": 0.4666666666666667,
+        "ig": 0.5333333333333333,
+        "random": 0.6666666666666666,
+        "gradients": 0.7333333333333333
+    },
+    "dev_722": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_86": {
+        "attention": 0.26666666666666666,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_707": {
+        "ig": 0.3333333333333333,
+        "attention": 0.4,
+        "gradients": 0.5333333333333333,
+        "scaled attention": 0.5333333333333333,
+        "random": 0.6
+    },
+    "dev_504": {
+        "scaled attention": 0.06666666666666667,
+        "random": 0.26666666666666666,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_87": {
+        "attention": 0.06666666666666667,
+        "scaled attention": 0.06666666666666667,
+        "gradients": 0.26666666666666666,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_447": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_404": {
+        "scaled attention": 0.26666666666666666,
+        "attention": 0.4666666666666667,
+        "gradients": 0.4666666666666667,
+        "random": 0.6,
+        "ig": 0.9333333333333333
+    },
+    "dev_50": {
+        "attention": 0.3333333333333333,
+        "scaled attention": 0.3333333333333333,
+        "gradients": 0.4666666666666667,
+        "random": 0.6,
+        "ig": 0.8666666666666667
+    },
+    "dev_38": {
+        "scaled attention": 0.2,
+        "attention": 0.3333333333333333,
+        "ig": 0.3333333333333333,
+        "random": 0.3333333333333333,
+        "gradients": 0.4
+    },
+    "dev_646": {
+        "ig": 0.06666666666666667,
+        "random": 0.06666666666666667,
+        "scaled attention": 0.13333333333333333,
+        "attention": 0.2,
+        "gradients": 0.4
+    },
+    "dev_187": {
+        "attention": 0.26666666666666666,
+        "ig": 0.26666666666666666,
+        "random": 0.3333333333333333,
+        "gradients": 0.4,
+        "scaled attention": 0.4
+    },
+    "dev_476": {
+        "attention": 0.06666666666666667,
+        "scaled attention": 0.06666666666666667,
+        "random": 0.06666666666666667,
+        "gradients": 0.2,
+        "ig": 0.2
+    },
+    "dev_512": {
+        "scaled attention": 0.6,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_479": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_388": {
+        "ig": 0.4666666666666667,
+        "scaled attention": 0.5333333333333333,
+        "random": 0.5333333333333333,
+        "attention": 0.6,
+        "gradients": 0.6666666666666666
+    },
+    "dev_564": {
+        "attention": 0.06666666666666667,
+        "gradients": 0.13333333333333333,
+        "scaled attention": 0.4,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_500": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_316": {
+        "gradients": 0.6666666666666666,
+        "random": 0.6666666666666666,
+        "ig": 0.7333333333333333,
+        "attention": 0.8,
+        "scaled attention": 0.8
+    },
+    "dev_137": {
+        "gradients": 0.13333333333333333,
+        "ig": 0.2,
+        "attention": 0.26666666666666666,
+        "scaled attention": 0.26666666666666666,
+        "random": 0.26666666666666666
+    },
+    "dev_350": {
+        "attention": 0.4,
+        "scaled attention": 0.4,
+        "random": 0.4666666666666667,
+        "gradients": 0.5333333333333333,
+        "ig": 0.6
+    },
+    "dev_344": {
+        "attention": 0.2,
+        "scaled attention": 0.26666666666666666,
+        "gradients": 0.3333333333333333,
+        "ig": 0.4666666666666667,
+        "random": 0.5333333333333333
+    },
+    "dev_487": {
+        "gradients": 0.06666666666666667,
+        "ig": 0.06666666666666667,
+        "attention": 0.13333333333333333,
+        "scaled attention": 0.13333333333333333,
+        "random": 1.0
+    },
+    "dev_502": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_665": {
+        "scaled attention": 0.375,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_427": {
+        "attention": 0.4375,
+        "scaled attention": 0.4375,
+        "random": 0.5,
+        "gradients": 0.5625,
+        "ig": 0.6875
+    },
+    "dev_423": {
+        "attention": 0.125,
+        "ig": 0.125,
+        "scaled attention": 0.3125,
+        "gradients": 0.75,
+        "random": 0.75
+    },
+    "dev_748": {
+        "ig": 0.875,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_600": {
+        "attention": 0.25,
+        "scaled attention": 0.25,
+        "random": 0.375,
+        "ig": 0.5,
+        "gradients": 1.0
+    },
+    "dev_529": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_822": {
+        "scaled attention": 0.3125,
+        "gradients": 0.375,
+        "ig": 0.5,
+        "random": 0.5,
+        "attention": 0.5625
+    },
+    "dev_654": {
+        "attention": 0.125,
+        "scaled attention": 0.1875,
+        "random": 0.1875,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_631": {
+        "attention": 0.125,
+        "gradients": 0.125,
+        "ig": 0.125,
+        "scaled attention": 0.25,
+        "random": 0.375
+    },
+    "dev_359": {
+        "attention": 0.25,
+        "ig": 0.375,
+        "random": 0.375,
+        "gradients": 0.75,
+        "scaled attention": 0.8125
+    },
+    "dev_273": {
+        "attention": 0.5625,
+        "gradients": 0.5625,
+        "random": 0.5625,
+        "ig": 0.625,
+        "scaled attention": 0.6875
+    },
+    "dev_590": {
+        "attention": 0.0625,
+        "scaled attention": 0.0625,
+        "random": 0.0625,
+        "gradients": 0.3125,
+        "ig": 0.3125
+    },
+    "dev_0": {
+        "attention": 0.25,
+        "random": 0.625,
+        "scaled attention": 0.6875,
+        "gradients": 0.75,
+        "ig": 0.8125
+    },
+    "dev_67": {
+        "attention": 0.0625,
+        "gradients": 0.0625,
+        "scaled attention": 0.0625,
+        "ig": 0.125,
+        "random": 0.1875
+    },
+    "dev_58": {
+        "attention": 0.0625,
+        "random": 0.1875,
+        "gradients": 0.3125,
+        "ig": 0.5,
+        "scaled attention": 0.875
+    },
+    "dev_51": {
+        "attention": 0.1875,
+        "random": 0.25,
+        "ig": 0.3125,
+        "scaled attention": 0.375,
+        "gradients": 0.4375
+    },
+    "dev_94": {
+        "attention": 0.25,
+        "gradients": 0.3125,
+        "scaled attention": 0.3125,
+        "ig": 0.375,
+        "random": 0.625
+    },
+    "dev_205": {
+        "attention": 0.0625,
+        "ig": 0.125,
+        "gradients": 0.1875,
+        "scaled attention": 0.5,
+        "random": 1.0
+    },
+    "dev_117": {
+        "attention": 0.0625,
+        "gradients": 0.0625,
+        "ig": 0.0625,
+        "random": 0.125,
+        "scaled attention": 0.5625
+    },
+    "dev_128": {
+        "attention": 0.1875,
+        "ig": 0.25,
+        "gradients": 0.3125,
+        "random": 0.375,
+        "scaled attention": 0.4375
+    },
+    "dev_215": {
+        "attention": 0.0625,
+        "gradients": 0.1875,
+        "ig": 0.1875,
+        "random": 0.1875,
+        "scaled attention": 1.0
+    },
+    "dev_130": {
+        "attention": 0.4375,
+        "ig": 0.4375,
+        "gradients": 0.5,
+        "scaled attention": 0.5625,
+        "random": 0.6875
+    },
+    "dev_175": {
+        "gradients": 0.1875,
+        "scaled attention": 0.1875,
+        "ig": 0.25,
+        "attention": 0.3125,
+        "random": 0.3125
+    },
+    "dev_607": {
+        "ig": 0.8235294117647058,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_577": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_431": {
+        "scaled attention": 0.29411764705882354,
+        "attention": 0.35294117647058826,
+        "random": 0.5882352941176471,
+        "ig": 0.6470588235294118,
+        "gradients": 0.7058823529411765
+    },
+    "dev_390": {
+        "attention": 0.23529411764705882,
+        "gradients": 0.35294117647058826,
+        "scaled attention": 0.4117647058823529,
+        "random": 0.4117647058823529,
+        "ig": 0.5882352941176471
+    },
+    "dev_563": {
+        "scaled attention": 0.058823529411764705,
+        "attention": 0.17647058823529413,
+        "gradients": 0.17647058823529413,
+        "ig": 0.17647058823529413,
+        "random": 1.0
+    },
+    "dev_93": {
+        "scaled attention": 0.058823529411764705,
+        "ig": 0.11764705882352941,
+        "random": 0.11764705882352941,
+        "attention": 0.23529411764705882,
+        "gradients": 0.23529411764705882
+    },
+    "dev_458": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_225": {
+        "scaled attention": 0.29411764705882354,
+        "attention": 0.35294117647058826,
+        "ig": 0.47058823529411764,
+        "random": 0.47058823529411764,
+        "gradients": 0.6470588235294118
+    },
+    "dev_290": {
+        "attention": 0.23529411764705882,
+        "gradients": 0.35294117647058826,
+        "random": 0.47058823529411764,
+        "scaled attention": 0.5294117647058824,
+        "ig": 0.7058823529411765
+    },
+    "dev_474": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_857": {
+        "attention": 0.23529411764705882,
+        "random": 0.5294117647058824,
+        "ig": 0.5882352941176471,
+        "gradients": 0.6470588235294118,
+        "scaled attention": 0.8235294117647058
+    },
+    "dev_69": {
+        "gradients": 0.23529411764705882,
+        "scaled attention": 0.23529411764705882,
+        "attention": 0.29411764705882354,
+        "ig": 0.29411764705882354,
+        "random": 0.47058823529411764
+    },
+    "dev_519": {
+        "attention": 0.17647058823529413,
+        "random": 0.17647058823529413,
+        "scaled attention": 0.29411764705882354,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_296": {
+        "attention": 0.35294117647058826,
+        "gradients": 0.5294117647058824,
+        "random": 0.5882352941176471,
+        "ig": 0.6470588235294118,
+        "scaled attention": 0.8823529411764706
+    },
+    "dev_133": {
+        "attention": 0.23529411764705882,
+        "random": 0.23529411764705882,
+        "scaled attention": 0.29411764705882354,
+        "gradients": 0.35294117647058826,
+        "ig": 0.7647058823529411
+    },
+    "dev_405": {
+        "scaled attention": 0.058823529411764705,
+        "random": 0.11764705882352941,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_496": {
+        "attention": 0.11764705882352941,
+        "scaled attention": 0.23529411764705882,
+        "gradients": 0.35294117647058826,
+        "ig": 0.35294117647058826,
+        "random": 1.0
+    },
+    "dev_547": {
+        "scaled attention": 0.058823529411764705,
+        "gradients": 0.11764705882352941,
+        "ig": 0.11764705882352941,
+        "attention": 0.17647058823529413,
+        "random": 1.0
+    },
+    "dev_106": {
+        "attention": 0.23529411764705882,
+        "gradients": 0.29411764705882354,
+        "scaled attention": 0.35294117647058826,
+        "ig": 0.35294117647058826,
+        "random": 0.5294117647058824
+    },
+    "dev_517": {
+        "random": 0.35294117647058826,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_622": {
+        "attention": 0.11764705882352941,
+        "scaled attention": 0.35294117647058826,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_761": {
+        "attention": 0.29411764705882354,
+        "scaled attention": 0.29411764705882354,
+        "random": 0.29411764705882354,
+        "gradients": 0.8235294117647058,
+        "ig": 1.0
+    },
+    "dev_756": {
+        "ig": 0.29411764705882354,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_197": {
+        "scaled attention": 0.47058823529411764,
+        "ig": 0.47058823529411764,
+        "attention": 0.5294117647058824,
+        "gradients": 0.6470588235294118,
+        "random": 0.7647058823529411
+    },
+    "dev_361": {
+        "attention": 0.29411764705882354,
+        "gradients": 0.35294117647058826,
+        "ig": 0.47058823529411764,
+        "scaled attention": 0.5294117647058824,
+        "random": 0.7647058823529411
+    },
+    "dev_741": {
+        "gradients": 0.058823529411764705,
+        "attention": 0.11764705882352941,
+        "random": 0.11764705882352941,
+        "ig": 0.23529411764705882,
+        "scaled attention": 0.47058823529411764
+    },
+    "dev_365": {
+        "scaled attention": 0.17647058823529413,
+        "random": 0.17647058823529413,
+        "attention": 0.4117647058823529,
+        "gradients": 0.5294117647058824,
+        "ig": 0.5882352941176471
+    },
+    "dev_12": {
+        "attention": 0.29411764705882354,
+        "gradients": 0.29411764705882354,
+        "scaled attention": 0.29411764705882354,
+        "ig": 0.29411764705882354,
+        "random": 0.35294117647058826
+    },
+    "dev_731": {
+        "attention": 0.058823529411764705,
+        "gradients": 0.058823529411764705,
+        "scaled attention": 0.058823529411764705,
+        "ig": 0.058823529411764705,
+        "random": 1.0
+    },
+    "dev_726": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_851": {
+        "attention": 0.29411764705882354,
+        "scaled attention": 0.29411764705882354,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_265": {
+        "attention": 0.17647058823529413,
+        "gradients": 0.5294117647058824,
+        "ig": 0.5294117647058824,
+        "scaled attention": 0.5882352941176471,
+        "random": 0.5882352941176471
+    },
+    "dev_833": {
+        "scaled attention": 0.058823529411764705,
+        "attention": 0.11764705882352941,
+        "gradients": 0.23529411764705882,
+        "ig": 0.23529411764705882,
+        "random": 0.5294117647058824
+    },
+    "dev_695": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_637": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_56": {
+        "attention": 0.4117647058823529,
+        "scaled attention": 0.4117647058823529,
+        "ig": 0.4117647058823529,
+        "random": 0.5882352941176471,
+        "gradients": 0.8823529411764706
+    },
+    "dev_697": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_243": {
+        "attention": 0.29411764705882354,
+        "gradients": 0.4117647058823529,
+        "scaled attention": 0.4117647058823529,
+        "random": 0.47058823529411764,
+        "ig": 0.5882352941176471
+    },
+    "dev_47": {
+        "attention": 0.11764705882352941,
+        "scaled attention": 0.11764705882352941,
+        "ig": 0.47058823529411764,
+        "random": 0.5294117647058824,
+        "gradients": 0.6470588235294118
+    },
+    "dev_275": {
+        "attention": 0.17647058823529413,
+        "scaled attention": 0.17647058823529413,
+        "ig": 0.23529411764705882,
+        "gradients": 0.4117647058823529,
+        "random": 0.5882352941176471
+    },
+    "dev_841": {
+        "attention": 0.11764705882352941,
+        "gradients": 0.35294117647058826,
+        "random": 0.5882352941176471,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_686": {
+        "attention": 0.058823529411764705,
+        "scaled attention": 0.058823529411764705,
+        "ig": 0.11764705882352941,
+        "random": 0.11764705882352941,
+        "gradients": 1.0
+    },
+    "dev_380": {
+        "attention": 0.4444444444444444,
+        "ig": 0.5555555555555556,
+        "random": 0.5555555555555556,
+        "scaled attention": 0.6111111111111112,
+        "gradients": 0.6666666666666666
+    },
+    "dev_396": {
+        "attention": 0.16666666666666666,
+        "ig": 0.16666666666666666,
+        "random": 0.2222222222222222,
+        "scaled attention": 0.6111111111111112,
+        "gradients": 0.7222222222222222
+    },
+    "dev_408": {
+        "attention": 0.05555555555555555,
+        "gradients": 0.1111111111111111,
+        "ig": 0.1111111111111111,
+        "scaled attention": 0.8888888888888888,
+        "random": 0.8888888888888888
+    },
+    "dev_419": {
+        "scaled attention": 0.16666666666666666,
+        "attention": 0.2222222222222222,
+        "gradients": 0.3888888888888889,
+        "random": 0.4444444444444444,
+        "ig": 0.7222222222222222
+    },
+    "dev_193": {
+        "random": 0.3888888888888889,
+        "scaled attention": 0.6666666666666666,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_354": {
+        "ig": 0.1111111111111111,
+        "gradients": 0.4444444444444444,
+        "scaled attention": 0.4444444444444444,
+        "random": 0.5,
+        "attention": 0.5555555555555556
+    },
+    "dev_383": {
+        "scaled attention": 0.2777777777777778,
+        "ig": 0.4444444444444444,
+        "attention": 0.5555555555555556,
+        "gradients": 0.6666666666666666,
+        "random": 0.8333333333333334
+    },
+    "dev_433": {
+        "scaled attention": 0.3333333333333333,
+        "attention": 0.4444444444444444,
+        "gradients": 0.4444444444444444,
+        "random": 0.6111111111111112,
+        "ig": 0.8333333333333334
+    },
+    "dev_817": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_446": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_778": {
+        "scaled attention": 0.2777777777777778,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_755": {
+        "random": 0.05555555555555555,
+        "gradients": 0.1111111111111111,
+        "ig": 0.1111111111111111,
+        "attention": 0.3888888888888889,
+        "scaled attention": 0.3888888888888889
+    },
+    "dev_753": {
+        "scaled attention": 0.1111111111111111,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_787": {
+        "attention": 0.05555555555555555,
+        "gradients": 0.05555555555555555,
+        "scaled attention": 0.05555555555555555,
+        "random": 0.2222222222222222,
+        "ig": 1.0
+    },
+    "dev_718": {
+        "attention": 0.3888888888888889,
+        "scaled attention": 0.4444444444444444,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_678": {
+        "attention": 0.05555555555555555,
+        "gradients": 0.05555555555555555,
+        "scaled attention": 0.05555555555555555,
+        "ig": 0.05555555555555555,
+        "random": 0.2777777777777778
+    },
+    "dev_670": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_636": {
+        "attention": 0.05555555555555555,
+        "scaled attention": 0.2222222222222222,
+        "ig": 0.2777777777777778,
+        "random": 0.3333333333333333,
+        "gradients": 1.0
+    },
+    "dev_620": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_569": {
+        "attention": 0.2777777777777778,
+        "scaled attention": 0.3888888888888889,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_511": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_120": {
+        "random": 0.1111111111111111,
+        "attention": 0.3333333333333333,
+        "gradients": 0.4444444444444444,
+        "ig": 0.5,
+        "scaled attention": 0.5555555555555556
+    },
+    "dev_148": {
+        "random": 0.3888888888888889,
+        "ig": 0.5,
+        "attention": 0.5555555555555556,
+        "scaled attention": 0.5555555555555556,
+        "gradients": 0.6111111111111112
+    },
+    "dev_159": {
+        "attention": 0.2222222222222222,
+        "scaled attention": 0.2222222222222222,
+        "random": 0.6111111111111112,
+        "gradients": 0.7222222222222222,
+        "ig": 0.7777777777777778
+    },
+    "dev_449": {
+        "attention": 0.3333333333333333,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_167": {
+        "scaled attention": 0.4444444444444444,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_342": {
+        "attention": 0.3888888888888889,
+        "gradients": 0.6666666666666666,
+        "random": 0.6666666666666666,
+        "ig": 0.7222222222222222,
+        "scaled attention": 0.8888888888888888
+    },
+    "dev_253": {
+        "scaled attention": 0.1111111111111111,
+        "attention": 0.2222222222222222,
+        "ig": 0.3888888888888889,
+        "random": 0.3888888888888889,
+        "gradients": 1.0
+    },
+    "dev_255": {
+        "attention": 0.2222222222222222,
+        "scaled attention": 0.2777777777777778,
+        "gradients": 0.3333333333333333,
+        "random": 0.4444444444444444,
+        "ig": 0.5555555555555556
+    },
+    "dev_242": {
+        "attention": 0.2222222222222222,
+        "gradients": 0.3333333333333333,
+        "scaled attention": 0.3333333333333333,
+        "random": 0.3888888888888889,
+        "ig": 0.6111111111111112
+    },
+    "dev_294": {
+        "attention": 0.1111111111111111,
+        "scaled attention": 0.16666666666666666,
+        "gradients": 0.3333333333333333,
+        "random": 0.3888888888888889,
+        "ig": 1.0
+    },
+    "dev_606": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_63": {
+        "attention": 0.10526315789473684,
+        "scaled attention": 0.2631578947368421,
+        "random": 0.5263157894736842,
+        "gradients": 0.5789473684210527,
+        "ig": 0.8421052631578947
+    },
+    "dev_791": {
+        "attention": 0.21052631578947367,
+        "scaled attention": 0.2631578947368421,
+        "random": 0.5263157894736842,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_245": {
+        "scaled attention": 0.3157894736842105,
+        "attention": 0.3684210526315789,
+        "random": 0.42105263157894735,
+        "ig": 0.5263157894736842,
+        "gradients": 0.5789473684210527
+    },
+    "dev_603": {
+        "ig": 0.21052631578947367,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_39": {
+        "attention": 0.21052631578947367,
+        "scaled attention": 0.2631578947368421,
+        "random": 0.3684210526315789,
+        "ig": 0.42105263157894735,
+        "gradients": 0.47368421052631576
+    },
+    "dev_189": {
+        "attention": 0.10526315789473684,
+        "scaled attention": 0.10526315789473684,
+        "ig": 0.10526315789473684,
+        "random": 0.2631578947368421,
+        "gradients": 0.42105263157894735
+    },
+    "dev_196": {
+        "scaled attention": 0.42105263157894735,
+        "attention": 0.5263157894736842,
+        "random": 0.5263157894736842,
+        "gradients": 0.6842105263157895,
+        "ig": 0.7368421052631579
+    },
+    "dev_533": {
+        "scaled attention": 0.631578947368421,
+        "gradients": 0.7894736842105263,
+        "attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_356": {
+        "scaled attention": 0.10526315789473684,
+        "attention": 0.15789473684210525,
+        "random": 0.42105263157894735,
+        "ig": 0.47368421052631576,
+        "gradients": 0.8421052631578947
+    },
+    "dev_45": {
+        "attention": 0.3684210526315789,
+        "scaled attention": 0.42105263157894735,
+        "ig": 0.42105263157894735,
+        "random": 0.5789473684210527,
+        "gradients": 0.631578947368421
+    },
+    "dev_46": {
+        "attention": 0.21052631578947367,
+        "scaled attention": 0.21052631578947367,
+        "ig": 0.5789473684210527,
+        "gradients": 0.6842105263157895,
+        "random": 0.7894736842105263
+    },
+    "dev_49": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_870": {
+        "gradients": 0.05263157894736842,
+        "scaled attention": 0.05263157894736842,
+        "ig": 0.05263157894736842,
+        "attention": 0.10526315789473684,
+        "random": 1.0
+    },
+    "dev_576": {
+        "attention": 0.2631578947368421,
+        "scaled attention": 0.42105263157894735,
+        "ig": 0.47368421052631576,
+        "random": 0.631578947368421,
+        "gradients": 0.6842105263157895
+    },
+    "dev_89": {
+        "attention": 0.21052631578947367,
+        "scaled attention": 0.21052631578947367,
+        "ig": 0.21052631578947367,
+        "random": 0.2631578947368421,
+        "gradients": 0.42105263157894735
+    },
+    "dev_565": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_406": {
+        "gradients": 0.05263157894736842,
+        "scaled attention": 0.05263157894736842,
+        "ig": 0.10526315789473684,
+        "random": 0.15789473684210525,
+        "attention": 1.0
+    },
+    "dev_844": {
+        "ig": 0.10526315789473684,
+        "attention": 0.15789473684210525,
+        "random": 0.42105263157894735,
+        "gradients": 1.0,
+        "scaled attention": 1.0
+    },
+    "dev_392": {
+        "ig": 0.2631578947368421,
+        "attention": 0.3684210526315789,
+        "scaled attention": 0.5263157894736842,
+        "gradients": 0.5789473684210527,
+        "random": 0.5789473684210527
+    },
+    "dev_842": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_444": {
+        "attention": 0.10526315789473684,
+        "scaled attention": 0.10526315789473684,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_445": {
+        "attention": 0.21052631578947367,
+        "gradients": 0.21052631578947367,
+        "scaled attention": 0.42105263157894735,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_615": {
+        "scaled attention": 0.42105263157894735,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_455": {
+        "attention": 0.3157894736842105,
+        "gradients": 0.3157894736842105,
+        "ig": 0.42105263157894735,
+        "scaled attention": 0.5789473684210527,
+        "random": 0.7368421052631579
+    },
+    "dev_207": {
+        "attention": 0.21052631578947367,
+        "scaled attention": 0.3157894736842105,
+        "ig": 0.3157894736842105,
+        "gradients": 0.3684210526315789,
+        "random": 0.47368421052631576
+    },
+    "dev_849": {
+        "gradients": 0.47368421052631576,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_583": {
+        "scaled attention": 0.05263157894736842,
+        "ig": 0.05263157894736842,
+        "attention": 0.10526315789473684,
+        "gradients": 0.21052631578947367,
+        "random": 0.21052631578947367
+    },
+    "dev_826": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_19": {
+        "attention": 0.3684210526315789,
+        "scaled attention": 0.5263157894736842,
+        "ig": 0.631578947368421,
+        "gradients": 0.6842105263157895,
+        "random": 0.6842105263157895
+    },
+    "dev_491": {
+        "attention": 0.15789473684210525,
+        "scaled attention": 0.15789473684210525,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_263": {
+        "attention": 0.10526315789473684,
+        "gradients": 0.10526315789473684,
+        "scaled attention": 0.2631578947368421,
+        "ig": 0.2631578947368421,
+        "random": 0.3684210526315789
+    },
+    "dev_204": {
+        "attention": 0.2631578947368421,
+        "gradients": 0.3684210526315789,
+        "scaled attention": 0.3684210526315789,
+        "ig": 0.47368421052631576,
+        "random": 0.7368421052631579
+    },
+    "dev_322": {
+        "attention": 0.10526315789473684,
+        "scaled attention": 0.15789473684210525,
+        "ig": 0.2631578947368421,
+        "gradients": 0.3157894736842105,
+        "random": 0.3684210526315789
+    },
+    "dev_847": {
+        "attention": 0.05263157894736842,
+        "scaled attention": 0.05263157894736842,
+        "gradients": 0.21052631578947367,
+        "random": 0.21052631578947367,
+        "ig": 1.0
+    },
+    "dev_721": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_18": {
+        "attention": 0.5789473684210527,
+        "ig": 0.631578947368421,
+        "scaled attention": 0.6842105263157895,
+        "gradients": 0.7368421052631579,
+        "random": 0.7894736842105263
+    },
+    "dev_251": {
+        "attention": 0.2631578947368421,
+        "gradients": 0.3157894736842105,
+        "scaled attention": 0.3157894736842105,
+        "ig": 0.5263157894736842,
+        "random": 0.631578947368421
+    },
+    "dev_295": {
+        "attention": 0.2631578947368421,
+        "scaled attention": 0.3157894736842105,
+        "ig": 0.3684210526315789,
+        "random": 0.42105263157894735,
+        "gradients": 0.7368421052631579
+    },
+    "dev_734": {
+        "attention": 0.05263157894736842,
+        "scaled attention": 0.05263157894736842,
+        "random": 0.15789473684210525,
+        "ig": 0.2631578947368421,
+        "gradients": 0.42105263157894735
+    },
+    "dev_377": {
+        "attention": 0.42105263157894735,
+        "scaled attention": 0.5789473684210527,
+        "random": 0.631578947368421,
+        "gradients": 0.6842105263157895,
+        "ig": 0.8947368421052632
+    },
+    "dev_574": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_333": {
+        "scaled attention": 0.4,
+        "attention": 0.45,
+        "ig": 0.6,
+        "random": 0.75,
+        "gradients": 0.8
+    },
+    "dev_291": {
+        "scaled attention": 0.05,
+        "ig": 0.15,
+        "random": 0.15,
+        "attention": 0.2,
+        "gradients": 0.2
+    },
+    "dev_815": {
+        "attention": 0.3,
+        "random": 0.3,
+        "scaled attention": 0.35,
+        "gradients": 0.5,
+        "ig": 1.0
+    },
+    "dev_293": {
+        "scaled attention": 0.55,
+        "gradients": 0.6,
+        "ig": 0.75,
+        "attention": 0.8,
+        "random": 0.8
+    },
+    "dev_109": {
+        "attention": 0.1,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_111": {
+        "gradients": 0.05,
+        "ig": 0.05,
+        "random": 0.05,
+        "attention": 0.45,
+        "scaled attention": 0.45
+    },
+    "dev_416": {
+        "ig": 0.4,
+        "gradients": 0.45,
+        "scaled attention": 0.55,
+        "attention": 0.6,
+        "random": 0.6
+    },
+    "dev_460": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_827": {
+        "attention": 0.05,
+        "scaled attention": 0.05,
+        "ig": 0.1,
+        "random": 0.1,
+        "gradients": 1.0
+    },
+    "dev_551": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_528": {
+        "attention": 0.05,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_432": {
+        "attention": 0.2,
+        "scaled attention": 0.2,
+        "gradients": 0.25,
+        "ig": 0.25,
+        "random": 0.5
+    },
+    "dev_790": {
+        "scaled attention": 0.15,
+        "attention": 0.3,
+        "ig": 0.45,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_238": {
+        "attention": 0.4,
+        "scaled attention": 0.55,
+        "ig": 0.55,
+        "gradients": 0.7,
+        "random": 0.7
+    },
+    "dev_201": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_626": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_612": {
+        "attention": 0.35,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_777": {
+        "attention": 0.25,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_277": {
+        "ig": 0.7,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_256": {
+        "attention": 0.05,
+        "scaled attention": 0.05,
+        "ig": 0.05,
+        "random": 0.25,
+        "gradients": 0.35
+    },
+    "dev_789": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_750": {
+        "attention": 0.05,
+        "scaled attention": 0.05,
+        "gradients": 0.7,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_710": {
+        "ig": 0.15,
+        "scaled attention": 0.25,
+        "attention": 0.3,
+        "gradients": 0.3,
+        "random": 0.5
+    },
+    "dev_373": {
+        "attention": 0.3,
+        "gradients": 0.3,
+        "scaled attention": 0.5,
+        "ig": 0.75,
+        "random": 0.75
+    },
+    "dev_326": {
+        "ig": 0.05,
+        "attention": 0.25,
+        "gradients": 0.25,
+        "scaled attention": 0.35,
+        "random": 0.35
+    },
+    "dev_803": {
+        "scaled attention": 0.15,
+        "gradients": 0.2,
+        "attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_260": {
+        "attention": 0.3,
+        "scaled attention": 0.4,
+        "gradients": 0.5,
+        "random": 0.5,
+        "ig": 0.9
+    },
+    "dev_17": {
+        "ig": 0.09523809523809523,
+        "attention": 0.19047619047619047,
+        "gradients": 0.3333333333333333,
+        "random": 0.3333333333333333,
+        "scaled attention": 0.5714285714285714
+    },
+    "dev_79": {
+        "gradients": 0.047619047619047616,
+        "scaled attention": 0.09523809523809523,
+        "attention": 0.14285714285714285,
+        "random": 0.23809523809523808,
+        "ig": 0.3333333333333333
+    },
+    "dev_752": {
+        "attention": 0.3333333333333333,
+        "scaled attention": 0.3333333333333333,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_774": {
+        "random": 0.42857142857142855,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_780": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_829": {
+        "ig": 0.2857142857142857,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_136": {
+        "attention": 0.047619047619047616,
+        "ig": 0.047619047619047616,
+        "random": 0.047619047619047616,
+        "gradients": 0.14285714285714285,
+        "scaled attention": 0.19047619047619047
+    },
+    "dev_743": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_694": {
+        "attention": 0.14285714285714285,
+        "ig": 0.19047619047619047,
+        "random": 0.19047619047619047,
+        "gradients": 0.3333333333333333,
+        "scaled attention": 1.0
+    },
+    "dev_708": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_681": {
+        "attention": 0.09523809523809523,
+        "scaled attention": 0.09523809523809523,
+        "ig": 0.23809523809523808,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_798": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_44": {
+        "attention": 0.19047619047619047,
+        "ig": 0.3333333333333333,
+        "gradients": 0.38095238095238093,
+        "random": 0.5238095238095238,
+        "scaled attention": 0.7619047619047619
+    },
+    "dev_53": {
+        "attention": 0.19047619047619047,
+        "scaled attention": 0.2857142857142857,
+        "ig": 0.47619047619047616,
+        "gradients": 0.6666666666666666,
+        "random": 0.6666666666666666
+    },
+    "dev_858": {
+        "attention": 0.23809523809523808,
+        "random": 0.42857142857142855,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_651": {
+        "scaled attention": 0.09523809523809523,
+        "attention": 0.14285714285714285,
+        "gradients": 0.47619047619047616,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_57": {
+        "scaled attention": 0.09523809523809523,
+        "attention": 0.14285714285714285,
+        "random": 0.19047619047619047,
+        "gradients": 0.23809523809523808,
+        "ig": 0.23809523809523808
+    },
+    "dev_85": {
+        "attention": 0.2857142857142857,
+        "scaled attention": 0.3333333333333333,
+        "gradients": 0.42857142857142855,
+        "random": 0.47619047619047616,
+        "ig": 0.8095238095238095
+    },
+    "dev_59": {
+        "attention": 0.09523809523809523,
+        "gradients": 0.23809523809523808,
+        "scaled attention": 0.3333333333333333,
+        "random": 0.6190476190476191,
+        "ig": 0.8571428571428571
+    },
+    "dev_278": {
+        "attention": 0.2857142857142857,
+        "ig": 0.42857142857142855,
+        "gradients": 0.6190476190476191,
+        "random": 0.7619047619047619,
+        "scaled attention": 0.9047619047619048
+    },
+    "dev_578": {
+        "attention": 0.14285714285714285,
+        "scaled attention": 0.14285714285714285,
+        "random": 0.2857142857142857,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_806": {
+        "attention": 0.3333333333333333,
+        "scaled attention": 0.3333333333333333,
+        "gradients": 0.42857142857142855,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_116": {
+        "gradients": 0.047619047619047616,
+        "ig": 0.047619047619047616,
+        "scaled attention": 0.47619047619047616,
+        "attention": 1.0,
+        "random": 1.0
+    },
+    "dev_62": {
+        "random": 0.09523809523809523,
+        "gradients": 0.14285714285714285,
+        "ig": 0.3333333333333333,
+        "attention": 0.38095238095238093,
+        "scaled attention": 0.38095238095238093
+    },
+    "dev_92": {
+        "attention": 0.2857142857142857,
+        "scaled attention": 0.47619047619047616,
+        "gradients": 0.7142857142857143,
+        "ig": 0.7619047619047619,
+        "random": 0.8571428571428571
+    },
+    "dev_349": {
+        "attention": 0.09523809523809523,
+        "gradients": 0.19047619047619047,
+        "ig": 0.23809523809523808,
+        "scaled attention": 0.2857142857142857,
+        "random": 0.2857142857142857
+    },
+    "dev_324": {
+        "gradients": 0.14285714285714285,
+        "ig": 0.23809523809523808,
+        "scaled attention": 0.3333333333333333,
+        "attention": 0.38095238095238093,
+        "random": 0.47619047619047616
+    },
+    "dev_184": {
+        "attention": 0.047619047619047616,
+        "scaled attention": 0.14285714285714285,
+        "gradients": 0.23809523809523808,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_374": {
+        "random": 0.2857142857142857,
+        "gradients": 0.38095238095238093,
+        "attention": 0.42857142857142855,
+        "scaled attention": 0.42857142857142855,
+        "ig": 0.42857142857142855
+    },
+    "dev_387": {
+        "random": 0.6190476190476191,
+        "gradients": 0.6666666666666666,
+        "scaled attention": 0.6666666666666666,
+        "attention": 0.7142857142857143,
+        "ig": 0.7142857142857143
+    },
+    "dev_368": {
+        "scaled attention": 0.19047619047619047,
+        "attention": 0.47619047619047616,
+        "gradients": 0.6190476190476191,
+        "ig": 0.6190476190476191,
+        "random": 0.6666666666666666
+    },
+    "dev_347": {
+        "attention": 0.38095238095238093,
+        "random": 0.5238095238095238,
+        "gradients": 0.7142857142857143,
+        "scaled attention": 0.7142857142857143,
+        "ig": 0.9523809523809523
+    },
+    "dev_370": {
+        "attention": 0.47619047619047616,
+        "scaled attention": 0.5238095238095238,
+        "gradients": 0.6190476190476191,
+        "ig": 0.8095238095238095,
+        "random": 0.8571428571428571
+    },
+    "dev_345": {
+        "attention": 0.047619047619047616,
+        "gradients": 0.047619047619047616,
+        "ig": 0.19047619047619047,
+        "scaled attention": 0.42857142857142855,
+        "random": 0.5238095238095238
+    },
+    "dev_421": {
+        "attention": 0.047619047619047616,
+        "scaled attention": 0.047619047619047616,
+        "random": 0.09523809523809523,
+        "gradients": 0.14285714285714285,
+        "ig": 0.6190476190476191
+    },
+    "dev_203": {
+        "attention": 0.2727272727272727,
+        "scaled attention": 0.3181818181818182,
+        "ig": 0.5454545454545454,
+        "random": 0.5454545454545454,
+        "gradients": 0.5909090909090909
+    },
+    "dev_820": {
+        "attention": 0.2727272727272727,
+        "gradients": 0.2727272727272727,
+        "scaled attention": 0.36363636363636365,
+        "ig": 0.4090909090909091,
+        "random": 1.0
+    },
+    "dev_202": {
+        "gradients": 0.13636363636363635,
+        "attention": 0.18181818181818182,
+        "ig": 0.18181818181818182,
+        "scaled attention": 0.3181818181818182,
+        "random": 0.6363636363636364
+    },
+    "dev_644": {
+        "attention": 0.3181818181818182,
+        "scaled attention": 0.45454545454545453,
+        "ig": 0.5909090909090909,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_132": {
+        "attention": 0.09090909090909091,
+        "ig": 0.09090909090909091,
+        "scaled attention": 0.13636363636363635,
+        "gradients": 0.22727272727272727,
+        "random": 0.4090909090909091
+    },
+    "dev_304": {
+        "scaled attention": 0.4090909090909091,
+        "random": 0.4090909090909091,
+        "attention": 0.45454545454545453,
+        "ig": 0.6363636363636364,
+        "gradients": 0.6818181818181818
+    },
+    "dev_135": {
+        "attention": 0.2727272727272727,
+        "scaled attention": 0.3181818181818182,
+        "ig": 0.36363636363636365,
+        "random": 0.5454545454545454,
+        "gradients": 0.6363636363636364
+    },
+    "dev_375": {
+        "attention": 0.09090909090909091,
+        "ig": 0.18181818181818182,
+        "gradients": 0.22727272727272727,
+        "random": 0.45454545454545453,
+        "scaled attention": 0.5
+    },
+    "dev_330": {
+        "attention": 0.045454545454545456,
+        "scaled attention": 0.045454545454545456,
+        "ig": 0.045454545454545456,
+        "gradients": 0.36363636363636365,
+        "random": 0.5454545454545454
+    },
+    "dev_497": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_329": {
+        "attention": 0.4090909090909091,
+        "scaled attention": 0.45454545454545453,
+        "gradients": 0.5454545454545454,
+        "random": 0.5454545454545454,
+        "ig": 0.7727272727272727
+    },
+    "dev_28": {
+        "scaled attention": 0.045454545454545456,
+        "attention": 0.09090909090909091,
+        "ig": 0.3181818181818182,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_599": {
+        "scaled attention": 0.3181818181818182,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_802": {
+        "attention": 0.045454545454545456,
+        "scaled attention": 0.045454545454545456,
+        "gradients": 0.09090909090909091,
+        "ig": 0.09090909090909091,
+        "random": 0.3181818181818182
+    },
+    "dev_84": {
+        "attention": 0.13636363636363635,
+        "random": 0.2727272727272727,
+        "ig": 0.45454545454545453,
+        "gradients": 0.5,
+        "scaled attention": 0.8181818181818182
+    },
+    "dev_570": {
+        "attention": 0.22727272727272727,
+        "scaled attention": 0.2727272727272727,
+        "random": 0.5,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_796": {
+        "gradients": 0.5909090909090909,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_76": {
+        "attention": 0.22727272727272727,
+        "scaled attention": 0.45454545454545453,
+        "random": 0.45454545454545453,
+        "gradients": 0.5,
+        "ig": 0.6818181818181818
+    },
+    "dev_684": {
+        "scaled attention": 0.18181818181818182,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_561": {
+        "attention": 0.045454545454545456,
+        "scaled attention": 0.045454545454545456,
+        "ig": 0.09090909090909091,
+        "gradients": 0.18181818181818182,
+        "random": 0.18181818181818182
+    },
+    "dev_687": {
+        "scaled attention": 0.045454545454545456,
+        "attention": 0.13636363636363635,
+        "ig": 0.13636363636363635,
+        "gradients": 0.3181818181818182,
+        "random": 0.45454545454545453
+    },
+    "dev_555": {
+        "gradients": 0.13636363636363635,
+        "scaled attention": 0.18181818181818182,
+        "random": 0.22727272727272727,
+        "attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_553": {
+        "attention": 0.09090909090909091,
+        "ig": 0.6363636363636364,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_548": {
+        "attention": 0.13636363636363635,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_546": {
+        "random": 0.2727272727272727,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_541": {
+        "attention": 0.045454545454545456,
+        "scaled attention": 0.045454545454545456,
+        "gradients": 0.2727272727272727,
+        "random": 0.5,
+        "ig": 0.9090909090909091
+    },
+    "dev_539": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_10": {
+        "attention": 0.2727272727272727,
+        "scaled attention": 0.2727272727272727,
+        "gradients": 0.36363636363636365,
+        "random": 0.4090909090909091,
+        "ig": 0.8181818181818182
+    },
+    "dev_355": {
+        "attention": 0.5,
+        "gradients": 0.5454545454545454,
+        "scaled attention": 0.5454545454545454,
+        "random": 0.5454545454545454,
+        "ig": 0.6818181818181818
+    },
+    "dev_211": {
+        "attention": 0.5,
+        "ig": 0.5,
+        "gradients": 0.5454545454545454,
+        "random": 0.5909090909090909,
+        "scaled attention": 0.6363636363636364
+    },
+    "dev_831": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_586": {
+        "scaled attention": 0.18181818181818182,
+        "random": 0.22727272727272727,
+        "attention": 0.3181818181818182,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_341": {
+        "attention": 0.18181818181818182,
+        "gradients": 0.22727272727272727,
+        "scaled attention": 0.2727272727272727,
+        "ig": 0.3181818181818182,
+        "random": 0.3181818181818182
+    },
+    "dev_764": {
+        "scaled attention": 0.18181818181818182,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_770": {
+        "attention": 0.18181818181818182,
+        "scaled attention": 0.45454545454545453,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_209": {
+        "scaled attention": 0.45454545454545453,
+        "gradients": 0.5,
+        "random": 0.5,
+        "attention": 0.7727272727272727,
+        "ig": 0.7727272727272727
+    },
+    "dev_629": {
+        "scaled attention": 0.18181818181818182,
+        "attention": 0.22727272727272727,
+        "random": 0.5909090909090909,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_60": {
+        "scaled attention": 0.3181818181818182,
+        "attention": 0.36363636363636365,
+        "gradients": 0.5,
+        "ig": 0.5,
+        "random": 0.6363636363636364
+    },
+    "dev_758": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_214": {
+        "ig": 0.045454545454545456,
+        "attention": 0.2727272727272727,
+        "random": 0.5909090909090909,
+        "gradients": 0.6363636363636364,
+        "scaled attention": 0.7727272727272727
+    },
+    "dev_618": {
+        "attention": 0.5454545454545454,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_773": {
+        "attention": 0.22727272727272727,
+        "scaled attention": 0.22727272727272727,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_172": {
+        "attention": 0.36363636363636365,
+        "scaled attention": 0.36363636363636365,
+        "gradients": 0.6363636363636364,
+        "random": 0.8181818181818182,
+        "ig": 0.9090909090909091
+    },
+    "dev_336": {
+        "gradients": 0.13636363636363635,
+        "attention": 0.18181818181818182,
+        "scaled attention": 0.18181818181818182,
+        "random": 0.3181818181818182,
+        "ig": 0.8636363636363636
+    },
+    "dev_850": {
+        "attention": 0.043478260869565216,
+        "gradients": 0.043478260869565216,
+        "scaled attention": 0.043478260869565216,
+        "ig": 0.13043478260869565,
+        "random": 1.0
+    },
+    "dev_88": {
+        "attention": 0.6086956521739131,
+        "gradients": 0.6086956521739131,
+        "scaled attention": 0.6086956521739131,
+        "ig": 0.6521739130434783,
+        "random": 0.7391304347826086
+    },
+    "dev_83": {
+        "ig": 0.17391304347826086,
+        "scaled attention": 0.21739130434782608,
+        "random": 0.21739130434782608,
+        "attention": 1.0,
+        "gradients": 1.0
+    },
+    "dev_838": {
+        "scaled attention": 0.34782608695652173,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_715": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_859": {
+        "scaled attention": 0.08695652173913043,
+        "random": 0.08695652173913043,
+        "attention": 0.13043478260869565,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_456": {
+        "attention": 0.2608695652173913,
+        "scaled attention": 0.30434782608695654,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_372": {
+        "attention": 0.08695652173913043,
+        "scaled attention": 0.17391304347826086,
+        "ig": 0.30434782608695654,
+        "random": 0.5217391304347826,
+        "gradients": 0.6956521739130435
+    },
+    "dev_862": {
+        "scaled attention": 0.13043478260869565,
+        "attention": 0.2608695652173913,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_499": {
+        "scaled attention": 0.13043478260869565,
+        "random": 0.13043478260869565,
+        "gradients": 0.21739130434782608,
+        "ig": 0.391304347826087,
+        "attention": 1.0
+    },
+    "dev_157": {
+        "attention": 0.391304347826087,
+        "ig": 0.4782608695652174,
+        "scaled attention": 0.5652173913043478,
+        "gradients": 0.6956521739130435,
+        "random": 0.8260869565217391
+    },
+    "dev_81": {
+        "ig": 0.34782608695652173,
+        "attention": 0.5217391304347826,
+        "scaled attention": 0.5217391304347826,
+        "gradients": 0.5652173913043478,
+        "random": 0.6086956521739131
+    },
+    "dev_461": {
+        "gradients": 0.2608695652173913,
+        "ig": 0.5652173913043478,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_147": {
+        "random": 0.34782608695652173,
+        "attention": 0.4782608695652174,
+        "gradients": 0.6086956521739131,
+        "scaled attention": 0.6086956521739131,
+        "ig": 0.782608695652174
+    },
+    "dev_305": {
+        "attention": 0.34782608695652173,
+        "scaled attention": 0.43478260869565216,
+        "gradients": 0.5217391304347826,
+        "random": 0.5217391304347826,
+        "ig": 0.7391304347826086
+    },
+    "dev_3": {
+        "gradients": 0.391304347826087,
+        "ig": 0.4782608695652174,
+        "attention": 0.5652173913043478,
+        "scaled attention": 0.5652173913043478,
+        "random": 0.6521739130434783
+    },
+    "dev_371": {
+        "attention": 0.21739130434782608,
+        "scaled attention": 0.5217391304347826,
+        "ig": 0.5217391304347826,
+        "random": 0.8260869565217391,
+        "gradients": 0.9130434782608695
+    },
+    "dev_477": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_633": {
+        "ig": 0.391304347826087,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_250": {
+        "attention": 0.4782608695652174,
+        "random": 0.4782608695652174,
+        "gradients": 0.5652173913043478,
+        "ig": 0.6521739130434783,
+        "scaled attention": 0.782608695652174
+    },
+    "dev_767": {
+        "random": 0.08695652173913043,
+        "attention": 0.13043478260869565,
+        "ig": 0.17391304347826086,
+        "scaled attention": 0.2608695652173913,
+        "gradients": 0.30434782608695654
+    },
+    "dev_411": {
+        "scaled attention": 0.17391304347826086,
+        "attention": 0.2608695652173913,
+        "random": 0.34782608695652173,
+        "gradients": 0.391304347826087,
+        "ig": 0.6521739130434783
+    },
+    "dev_424": {
+        "attention": 0.2608695652173913,
+        "random": 0.2608695652173913,
+        "scaled attention": 0.391304347826087,
+        "ig": 0.391304347826087,
+        "gradients": 0.43478260869565216
+    },
+    "dev_489": {
+        "scaled attention": 0.13043478260869565,
+        "attention": 0.17391304347826086,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_224": {
+        "scaled attention": 0.043478260869565216,
+        "attention": 0.13043478260869565,
+        "ig": 0.13043478260869565,
+        "gradients": 0.17391304347826086,
+        "random": 1.0
+    },
+    "dev_794": {
+        "scaled attention": 0.043478260869565216,
+        "gradients": 0.08695652173913043,
+        "ig": 0.08695652173913043,
+        "random": 0.2608695652173913,
+        "attention": 0.4782608695652174
+    },
+    "dev_689": {
+        "attention": 0.043478260869565216,
+        "scaled attention": 0.043478260869565216,
+        "random": 0.043478260869565216,
+        "gradients": 0.13043478260869565,
+        "ig": 0.43478260869565216
+    },
+    "dev_407": {
+        "scaled attention": 0.25,
+        "gradients": 0.2916666666666667,
+        "random": 0.4166666666666667,
+        "ig": 0.5833333333333334,
+        "attention": 0.625
+    },
+    "dev_835": {
+        "attention": 0.08333333333333333,
+        "scaled attention": 0.125,
+        "ig": 0.125,
+        "random": 0.125,
+        "gradients": 1.0
+    },
+    "dev_655": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_704": {
+        "gradients": 0.08333333333333333,
+        "ig": 0.08333333333333333,
+        "random": 0.3333333333333333,
+        "scaled attention": 0.5416666666666666,
+        "attention": 1.0
+    },
+    "dev_164": {
+        "scaled attention": 0.041666666666666664,
+        "attention": 0.08333333333333333,
+        "ig": 0.20833333333333334,
+        "gradients": 0.4166666666666667,
+        "random": 0.5
+    },
+    "dev_784": {
+        "attention": 0.08333333333333333,
+        "scaled attention": 0.20833333333333334,
+        "random": 0.2916666666666667,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_41": {
+        "scaled attention": 0.041666666666666664,
+        "attention": 0.08333333333333333,
+        "ig": 0.125,
+        "random": 0.25,
+        "gradients": 0.3333333333333333
+    },
+    "dev_160": {
+        "scaled attention": 0.25,
+        "attention": 0.2916666666666667,
+        "random": 0.4166666666666667,
+        "gradients": 0.5833333333333334,
+        "ig": 0.7083333333333334
+    },
+    "dev_36": {
+        "gradients": 0.041666666666666664,
+        "scaled attention": 0.041666666666666664,
+        "ig": 0.041666666666666664,
+        "random": 0.08333333333333333,
+        "attention": 0.125
+    },
+    "dev_177": {
+        "scaled attention": 0.375,
+        "attention": 0.4166666666666667,
+        "random": 0.5,
+        "gradients": 0.7083333333333334,
+        "ig": 0.7083333333333334
+    },
+    "dev_425": {
+        "attention": 0.20833333333333334,
+        "scaled attention": 0.20833333333333334,
+        "ig": 0.4583333333333333,
+        "random": 0.625,
+        "gradients": 0.6666666666666666
+    },
+    "dev_759": {
+        "gradients": 0.7916666666666666,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_208": {
+        "attention": 0.2916666666666667,
+        "scaled attention": 0.4583333333333333,
+        "random": 0.5833333333333334,
+        "gradients": 0.6666666666666666,
+        "ig": 0.7083333333333334
+    },
+    "dev_343": {
+        "attention": 0.041666666666666664,
+        "scaled attention": 0.041666666666666664,
+        "ig": 0.041666666666666664,
+        "gradients": 0.125,
+        "random": 0.5416666666666666
+    },
+    "dev_781": {
+        "attention": 0.25,
+        "scaled attention": 0.25,
+        "ig": 0.3333333333333333,
+        "gradients": 0.375,
+        "random": 0.375
+    },
+    "dev_325": {
+        "ig": 0.3333333333333333,
+        "attention": 0.4583333333333333,
+        "gradients": 0.4583333333333333,
+        "random": 0.5,
+        "scaled attention": 0.6666666666666666
+    },
+    "dev_141": {
+        "attention": 0.16666666666666666,
+        "scaled attention": 0.16666666666666666,
+        "gradients": 0.20833333333333334,
+        "random": 0.2916666666666667,
+        "ig": 0.5
+    },
+    "dev_418": {
+        "scaled attention": 0.2916666666666667,
+        "attention": 0.3333333333333333,
+        "gradients": 0.5416666666666666,
+        "ig": 0.5416666666666666,
+        "random": 0.6666666666666666
+    },
+    "dev_676": {
+        "attention": 0.041666666666666664,
+        "scaled attention": 0.08333333333333333,
+        "gradients": 0.16666666666666666,
+        "ig": 0.375,
+        "random": 1.0
+    },
+    "dev_113": {
+        "ig": 0.08333333333333333,
+        "attention": 0.125,
+        "scaled attention": 0.125,
+        "gradients": 0.25,
+        "random": 0.2916666666666667
+    },
+    "dev_498": {
+        "attention": 0.625,
+        "scaled attention": 0.625,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_257": {
+        "attention": 0.08333333333333333,
+        "ig": 0.125,
+        "gradients": 0.3333333333333333,
+        "random": 0.4583333333333333,
+        "scaled attention": 0.875
+    },
+    "dev_642": {
+        "scaled attention": 0.041666666666666664,
+        "attention": 0.08333333333333333,
+        "gradients": 0.08333333333333333,
+        "ig": 0.125,
+        "random": 1.0
+    },
+    "dev_327": {
+        "attention": 0.20833333333333334,
+        "scaled attention": 0.25,
+        "ig": 0.25,
+        "random": 0.375,
+        "gradients": 0.4583333333333333
+    },
+    "dev_181": {
+        "scaled attention": 0.08333333333333333,
+        "attention": 0.125,
+        "ig": 0.375,
+        "random": 0.4583333333333333,
+        "gradients": 0.5833333333333334
+    },
+    "dev_682": {
+        "attention": 0.125,
+        "scaled attention": 0.16666666666666666,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_552": {
+        "attention": 0.041666666666666664,
+        "ig": 0.041666666666666664,
+        "random": 0.041666666666666664,
+        "scaled attention": 0.20833333333333334,
+        "gradients": 0.25
+    },
+    "dev_176": {
+        "attention": 0.3333333333333333,
+        "scaled attention": 0.375,
+        "random": 0.4583333333333333,
+        "gradients": 0.5,
+        "ig": 0.7916666666666666
+    },
+    "dev_200": {
+        "scaled attention": 0.041666666666666664,
+        "random": 0.041666666666666664,
+        "attention": 0.125,
+        "gradients": 0.3333333333333333,
+        "ig": 0.625
+    },
+    "dev_514": {
+        "attention": 0.041666666666666664,
+        "gradients": 0.041666666666666664,
+        "scaled attention": 0.041666666666666664,
+        "ig": 0.041666666666666664,
+        "random": 1.0
+    },
+    "dev_429": {
+        "attention": 0.20833333333333334,
+        "scaled attention": 0.375,
+        "gradients": 0.5833333333333334,
+        "ig": 0.5833333333333334,
+        "random": 0.8333333333333334
+    },
+    "dev_1": {
+        "ig": 0.125,
+        "attention": 0.20833333333333334,
+        "random": 0.20833333333333334,
+        "gradients": 0.2916666666666667,
+        "scaled attention": 0.2916666666666667
+    },
+    "dev_254": {
+        "random": 0.48,
+        "attention": 0.68,
+        "scaled attention": 0.68,
+        "gradients": 0.76,
+        "ig": 0.88
+    },
+    "dev_582": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_814": {
+        "random": 0.32,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_580": {
+        "scaled attention": 0.4,
+        "attention": 0.72,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_579": {
+        "gradients": 0.12,
+        "attention": 0.16,
+        "ig": 0.16,
+        "random": 0.2,
+        "scaled attention": 0.68
+    },
+    "dev_236": {
+        "scaled attention": 0.24,
+        "gradients": 0.36,
+        "random": 0.4,
+        "ig": 0.44,
+        "attention": 0.48
+    },
+    "dev_270": {
+        "scaled attention": 0.44,
+        "gradients": 0.48,
+        "ig": 0.48,
+        "random": 0.52,
+        "attention": 0.56
+    },
+    "dev_232": {
+        "scaled attention": 0.28,
+        "random": 0.28,
+        "ig": 0.32,
+        "attention": 0.44,
+        "gradients": 0.84
+    },
+    "dev_194": {
+        "attention": 0.28,
+        "scaled attention": 0.48,
+        "gradients": 0.56,
+        "ig": 0.64,
+        "random": 0.84
+    },
+    "dev_259": {
+        "ig": 0.28,
+        "scaled attention": 0.36,
+        "attention": 0.4,
+        "gradients": 0.52,
+        "random": 0.64
+    },
+    "dev_97": {
+        "scaled attention": 0.32,
+        "attention": 0.4,
+        "gradients": 0.4,
+        "random": 0.56,
+        "ig": 0.68
+    },
+    "dev_853": {
+        "scaled attention": 0.04,
+        "attention": 0.08,
+        "ig": 0.16,
+        "random": 0.48,
+        "gradients": 0.6
+    },
+    "dev_786": {
+        "scaled attention": 0.04,
+        "random": 0.04,
+        "attention": 0.08,
+        "ig": 0.08,
+        "gradients": 0.24
+    },
+    "dev_192": {
+        "gradients": 0.32,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_140": {
+        "random": 0.16,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_464": {
+        "attention": 0.24,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_340": {
+        "attention": 0.16,
+        "scaled attention": 0.28,
+        "ig": 0.32,
+        "gradients": 0.8,
+        "random": 0.8
+    },
+    "dev_493": {
+        "attention": 0.04,
+        "gradients": 0.12,
+        "random": 0.28,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_13": {
+        "attention": 0.2,
+        "scaled attention": 0.52,
+        "ig": 0.56,
+        "random": 0.56,
+        "gradients": 0.68
+    },
+    "dev_645": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_61": {
+        "attention": 0.6,
+        "gradients": 0.6,
+        "random": 0.6,
+        "scaled attention": 0.68,
+        "ig": 0.92
+    },
+    "dev_647": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_95": {
+        "scaled attention": 0.08,
+        "attention": 0.52,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_648": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_509": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_809": {
+        "attention": 0.2,
+        "ig": 0.52,
+        "gradients": 0.6,
+        "random": 0.68,
+        "scaled attention": 0.72
+    },
+    "dev_74": {
+        "scaled attention": 0.12,
+        "ig": 0.12,
+        "attention": 0.16,
+        "gradients": 0.56,
+        "random": 0.76
+    },
+    "dev_35": {
+        "scaled attention": 0.2,
+        "attention": 0.56,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_520": {
+        "attention": 0.16,
+        "gradients": 0.48,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_866": {
+        "attention": 0.08,
+        "gradients": 0.24,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_523": {
+        "attention": 0.04,
+        "scaled attention": 0.08,
+        "gradients": 0.36,
+        "ig": 0.44,
+        "random": 0.52
+    },
+    "dev_524": {
+        "scaled attention": 0.28,
+        "attention": 0.52,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_162": {
+        "attention": 0.12,
+        "scaled attention": 0.12,
+        "random": 0.28,
+        "gradients": 0.36,
+        "ig": 0.56
+    },
+    "dev_452": {
+        "attention": 0.44,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_532": {
+        "attention": 0.04,
+        "scaled attention": 0.04,
+        "random": 0.16,
+        "ig": 0.4,
+        "gradients": 1.0
+    },
+    "dev_29": {
+        "gradients": 0.04,
+        "ig": 0.04,
+        "random": 0.08,
+        "scaled attention": 0.16,
+        "attention": 1.0
+    },
+    "dev_846": {
+        "scaled attention": 0.16,
+        "attention": 0.24,
+        "ig": 0.8,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_594": {
+        "attention": 0.08,
+        "gradients": 0.2,
+        "scaled attention": 0.28,
+        "random": 0.4,
+        "ig": 0.52
+    },
+    "dev_864": {
+        "scaled attention": 0.19230769230769232,
+        "attention": 0.3076923076923077,
+        "random": 0.34615384615384615,
+        "ig": 0.38461538461538464,
+        "gradients": 1.0
+    },
+    "dev_601": {
+        "attention": 0.2692307692307692,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_239": {
+        "random": 0.19230769230769232,
+        "attention": 0.23076923076923078,
+        "gradients": 0.34615384615384615,
+        "ig": 0.4230769230769231,
+        "scaled attention": 0.46153846153846156
+    },
+    "dev_212": {
+        "attention": 0.38461538461538464,
+        "random": 0.38461538461538464,
+        "gradients": 0.4230769230769231,
+        "scaled attention": 0.4230769230769231,
+        "ig": 0.4230769230769231
+    },
+    "dev_54": {
+        "scaled attention": 0.38461538461538464,
+        "attention": 0.4230769230769231,
+        "gradients": 0.46153846153846156,
+        "ig": 0.5769230769230769,
+        "random": 0.8461538461538461
+    },
+    "dev_55": {
+        "ig": 0.15384615384615385,
+        "attention": 0.19230769230769232,
+        "scaled attention": 0.19230769230769232,
+        "gradients": 0.23076923076923078,
+        "random": 0.3076923076923077
+    },
+    "dev_191": {
+        "attention": 0.11538461538461539,
+        "random": 0.15384615384615385,
+        "scaled attention": 0.19230769230769232,
+        "gradients": 0.3076923076923077,
+        "ig": 0.46153846153846156
+    },
+    "dev_671": {
+        "gradients": 0.46153846153846156,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_438": {
+        "scaled attention": 0.3076923076923077,
+        "attention": 0.34615384615384615,
+        "random": 0.34615384615384615,
+        "ig": 0.4230769230769231,
+        "gradients": 0.6153846153846154
+    },
+    "dev_422": {
+        "attention": 0.038461538461538464,
+        "gradients": 0.038461538461538464,
+        "ig": 0.038461538461538464,
+        "scaled attention": 0.07692307692307693,
+        "random": 0.5769230769230769
+    },
+    "dev_744": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_249": {
+        "ig": 0.3076923076923077,
+        "random": 0.4230769230769231,
+        "gradients": 0.46153846153846156,
+        "attention": 0.6538461538461539,
+        "scaled attention": 0.7692307692307693
+    },
+    "dev_142": {
+        "attention": 0.38461538461538464,
+        "scaled attention": 0.38461538461538464,
+        "random": 0.5769230769230769,
+        "gradients": 0.6153846153846154,
+        "ig": 0.6538461538461539
+    },
+    "dev_733": {
+        "scaled attention": 0.038461538461538464,
+        "attention": 0.07692307692307693,
+        "random": 0.11538461538461539,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_417": {
+        "attention": 0.23076923076923078,
+        "scaled attention": 0.23076923076923078,
+        "random": 0.46153846153846156,
+        "gradients": 0.5,
+        "ig": 0.6153846153846154
+    },
+    "dev_301": {
+        "ig": 0.38461538461538464,
+        "gradients": 0.4230769230769231,
+        "scaled attention": 0.4230769230769231,
+        "attention": 0.5,
+        "random": 0.5769230769230769
+    },
+    "dev_262": {
+        "scaled attention": 0.5,
+        "ig": 0.5,
+        "attention": 0.5384615384615384,
+        "gradients": 0.5769230769230769,
+        "random": 0.6153846153846154
+    },
+    "dev_728": {
+        "random": 0.19230769230769232,
+        "attention": 0.3076923076923077,
+        "gradients": 0.46153846153846156,
+        "scaled attention": 0.5,
+        "ig": 0.7692307692307693
+    },
+    "dev_121": {
+        "gradients": 0.11538461538461539,
+        "attention": 0.15384615384615385,
+        "random": 0.3076923076923077,
+        "scaled attention": 0.38461538461538464,
+        "ig": 0.4230769230769231
+    },
+    "dev_506": {
+        "ig": 0.15384615384615385,
+        "scaled attention": 0.2692307692307692,
+        "random": 0.2692307692307692,
+        "attention": 0.38461538461538464,
+        "gradients": 1.0
+    },
+    "dev_507": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_868": {
+        "scaled attention": 0.038461538461538464,
+        "ig": 0.038461538461538464,
+        "gradients": 0.07692307692307693,
+        "attention": 1.0,
+        "random": 1.0
+    },
+    "dev_515": {
+        "attention": 0.07692307692307693,
+        "scaled attention": 0.07692307692307693,
+        "gradients": 0.4230769230769231,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_110": {
+        "attention": 0.19230769230769232,
+        "random": 0.46153846153846156,
+        "gradients": 0.6538461538461539,
+        "ig": 0.7692307692307693,
+        "scaled attention": 0.8076923076923077
+    },
+    "dev_363": {
+        "attention": 0.2692307692307692,
+        "scaled attention": 0.46153846153846156,
+        "random": 0.46153846153846156,
+        "gradients": 0.5769230769230769,
+        "ig": 0.6923076923076923
+    },
+    "dev_409": {
+        "attention": 0.19230769230769232,
+        "ig": 0.38461538461538464,
+        "random": 0.46153846153846156,
+        "scaled attention": 0.6153846153846154,
+        "gradients": 0.6923076923076923
+    },
+    "dev_865": {
+        "attention": 0.038461538461538464,
+        "ig": 0.07692307692307693,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_108": {
+        "gradients": 0.5384615384615384,
+        "random": 0.5384615384615384,
+        "ig": 0.5769230769230769,
+        "attention": 0.6923076923076923,
+        "scaled attention": 0.8461538461538461
+    },
+    "dev_534": {
+        "attention": 0.038461538461538464,
+        "scaled attention": 0.15384615384615385,
+        "gradients": 0.5,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_31": {
+        "attention": 0.15384615384615385,
+        "random": 0.23076923076923078,
+        "gradients": 0.4230769230769231,
+        "scaled attention": 0.4230769230769231,
+        "ig": 0.8076923076923077
+    },
+    "dev_538": {
+        "attention": 0.15384615384615385,
+        "scaled attention": 0.15384615384615385,
+        "random": 0.34615384615384615,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_818": {
+        "scaled attention": 0.15384615384615385,
+        "attention": 0.2692307692307692,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_268": {
+        "attention": 0.23076923076923078,
+        "scaled attention": 0.23076923076923078,
+        "gradients": 0.38461538461538464,
+        "random": 0.4230769230769231,
+        "ig": 0.46153846153846156
+    },
+    "dev_776": {
+        "ig": 0.1111111111111111,
+        "scaled attention": 0.25925925925925924,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_7": {
+        "scaled attention": 0.037037037037037035,
+        "attention": 0.07407407407407407,
+        "gradients": 0.1111111111111111,
+        "ig": 0.14814814814814814,
+        "random": 0.7037037037037037
+    },
+    "dev_746": {
+        "scaled attention": 0.037037037037037035,
+        "attention": 0.07407407407407407,
+        "gradients": 0.14814814814814814,
+        "random": 0.14814814814814814,
+        "ig": 1.0
+    },
+    "dev_267": {
+        "random": 0.25925925925925924,
+        "scaled attention": 0.3333333333333333,
+        "attention": 0.4074074074074074,
+        "ig": 0.5925925925925926,
+        "gradients": 0.6666666666666666
+    },
+    "dev_736": {
+        "ig": 0.037037037037037035,
+        "attention": 0.07407407407407407,
+        "scaled attention": 0.07407407407407407,
+        "random": 0.1111111111111111,
+        "gradients": 0.5555555555555556
+    },
+    "dev_804": {
+        "attention": 0.07407407407407407,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_241": {
+        "scaled attention": 0.2222222222222222,
+        "attention": 0.25925925925925924,
+        "gradients": 0.48148148148148145,
+        "ig": 0.5555555555555556,
+        "random": 0.6296296296296297
+    },
+    "dev_649": {
+        "attention": 0.037037037037037035,
+        "scaled attention": 0.037037037037037035,
+        "ig": 0.037037037037037035,
+        "gradients": 0.07407407407407407,
+        "random": 1.0
+    },
+    "dev_668": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_711": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_738": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_705": {
+        "attention": 0.07407407407407407,
+        "scaled attention": 0.18518518518518517,
+        "random": 0.25925925925925924,
+        "gradients": 0.8888888888888888,
+        "ig": 1.0
+    },
+    "dev_168": {
+        "attention": 0.07407407407407407,
+        "gradients": 0.07407407407407407,
+        "ig": 0.07407407407407407,
+        "scaled attention": 0.3333333333333333,
+        "random": 0.6296296296296297
+    },
+    "dev_861": {
+        "attention": 0.037037037037037035,
+        "ig": 0.037037037037037035,
+        "gradients": 0.07407407407407407,
+        "scaled attention": 0.14814814814814814,
+        "random": 1.0
+    },
+    "dev_616": {
+        "attention": 0.07407407407407407,
+        "ig": 0.1111111111111111,
+        "random": 0.1111111111111111,
+        "scaled attention": 0.2222222222222222,
+        "gradients": 1.0
+    },
+    "dev_478": {
+        "scaled attention": 0.48148148148148145,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_182": {
+        "attention": 0.2222222222222222,
+        "scaled attention": 0.25925925925925924,
+        "ig": 0.48148148148148145,
+        "gradients": 0.6666666666666666,
+        "random": 0.8148148148148148
+    },
+    "dev_816": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_588": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_123": {
+        "attention": 0.4074074074074074,
+        "scaled attention": 0.4074074074074074,
+        "gradients": 0.6666666666666666,
+        "random": 0.6666666666666666,
+        "ig": 0.7037037037037037
+    },
+    "dev_627": {
+        "scaled attention": 0.17857142857142858,
+        "random": 0.4642857142857143,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_156": {
+        "scaled attention": 0.32142857142857145,
+        "gradients": 0.5,
+        "attention": 0.6785714285714286,
+        "random": 0.7142857142857143,
+        "ig": 0.75
+    },
+    "dev_457": {
+        "attention": 0.03571428571428571,
+        "scaled attention": 0.03571428571428571,
+        "random": 0.32142857142857145,
+        "gradients": 0.4642857142857143,
+        "ig": 0.6071428571428571
+    },
+    "dev_26": {
+        "scaled attention": 0.07142857142857142,
+        "attention": 0.10714285714285714,
+        "gradients": 0.5,
+        "ig": 0.5,
+        "random": 0.6428571428571429
+    },
+    "dev_217": {
+        "attention": 0.35714285714285715,
+        "gradients": 0.4642857142857143,
+        "ig": 0.5,
+        "random": 0.5,
+        "scaled attention": 0.5714285714285714
+    },
+    "dev_161": {
+        "ig": 0.10714285714285714,
+        "attention": 0.21428571428571427,
+        "gradients": 0.25,
+        "random": 0.2857142857142857,
+        "scaled attention": 0.39285714285714285
+    },
+    "dev_475": {
+        "attention": 0.2857142857142857,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_483": {
+        "ig": 0.14285714285714285,
+        "attention": 0.25,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_332": {
+        "attention": 0.2857142857142857,
+        "scaled attention": 0.35714285714285715,
+        "gradients": 0.5357142857142857,
+        "random": 0.5357142857142857,
+        "ig": 0.5714285714285714
+    },
+    "dev_462": {
+        "scaled attention": 0.10714285714285714,
+        "attention": 0.17857142857142858,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_178": {
+        "scaled attention": 0.25,
+        "attention": 0.2857142857142857,
+        "gradients": 0.35714285714285715,
+        "random": 0.35714285714285715,
+        "ig": 0.4642857142857143
+    },
+    "dev_98": {
+        "attention": 0.10714285714285714,
+        "scaled attention": 0.10714285714285714,
+        "random": 0.2857142857142857,
+        "gradients": 0.32142857142857145,
+        "ig": 0.6428571428571429
+    },
+    "dev_503": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_723": {
+        "attention": 0.17857142857142858,
+        "ig": 0.2857142857142857,
+        "gradients": 0.35714285714285715,
+        "random": 0.35714285714285715,
+        "scaled attention": 1.0
+    },
+    "dev_240": {
+        "scaled attention": 0.10714285714285714,
+        "attention": 0.17857142857142858,
+        "gradients": 0.39285714285714285,
+        "random": 0.42857142857142855,
+        "ig": 0.8928571428571429
+    },
+    "dev_102": {
+        "attention": 0.25,
+        "scaled attention": 0.25,
+        "gradients": 0.5,
+        "ig": 0.5357142857142857,
+        "random": 0.5714285714285714
+    },
+    "dev_415": {
+        "scaled attention": 0.2857142857142857,
+        "attention": 0.4642857142857143,
+        "gradients": 0.5357142857142857,
+        "ig": 0.5714285714285714,
+        "random": 0.6428571428571429
+    },
+    "dev_288": {
+        "attention": 0.35714285714285715,
+        "scaled attention": 0.35714285714285715,
+        "gradients": 0.42857142857142855,
+        "random": 0.6428571428571429,
+        "ig": 0.7857142857142857
+    },
+    "dev_118": {
+        "attention": 0.17857142857142858,
+        "scaled attention": 0.21428571428571427,
+        "gradients": 0.2857142857142857,
+        "ig": 0.2857142857142857,
+        "random": 0.42857142857142855
+    },
+    "dev_323": {
+        "scaled attention": 0.10714285714285714,
+        "attention": 0.17857142857142858,
+        "random": 0.5714285714285714,
+        "gradients": 0.6785714285714286,
+        "ig": 0.8571428571428571
+    },
+    "dev_619": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_867": {
+        "scaled attention": 0.034482758620689655,
+        "gradients": 0.1724137931034483,
+        "attention": 0.20689655172413793,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_666": {
+        "attention": 0.034482758620689655,
+        "ig": 0.034482758620689655,
+        "gradients": 0.13793103448275862,
+        "random": 0.3103448275862069,
+        "scaled attention": 0.5517241379310345
+    },
+    "dev_527": {
+        "attention": 0.06896551724137931,
+        "scaled attention": 0.06896551724137931,
+        "ig": 0.20689655172413793,
+        "random": 0.4827586206896552,
+        "gradients": 1.0
+    },
+    "dev_673": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_149": {
+        "gradients": 0.3448275862068966,
+        "ig": 0.3448275862068966,
+        "attention": 0.41379310344827586,
+        "scaled attention": 0.4482758620689655,
+        "random": 0.4482758620689655
+    },
+    "dev_732": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_400": {
+        "attention": 0.4482758620689655,
+        "scaled attention": 0.5172413793103449,
+        "random": 0.5862068965517241,
+        "gradients": 0.7586206896551724,
+        "ig": 0.896551724137931
+    },
+    "dev_799": {
+        "random": 0.27586206896551724,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_795": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_8": {
+        "scaled attention": 0.27586206896551724,
+        "gradients": 0.4482758620689655,
+        "attention": 0.4827586206896552,
+        "random": 0.5517241379310345,
+        "ig": 0.5862068965517241
+    },
+    "dev_315": {
+        "attention": 0.20689655172413793,
+        "scaled attention": 0.2413793103448276,
+        "gradients": 0.6206896551724138,
+        "random": 0.6551724137931034,
+        "ig": 0.6896551724137931
+    },
+    "dev_314": {
+        "attention": 0.034482758620689655,
+        "scaled attention": 0.034482758620689655,
+        "ig": 0.3448275862068966,
+        "gradients": 0.4482758620689655,
+        "random": 0.4827586206896552
+    },
+    "dev_169": {
+        "random": 0.034482758620689655,
+        "attention": 0.06896551724137931,
+        "gradients": 0.06896551724137931,
+        "scaled attention": 0.06896551724137931,
+        "ig": 0.06896551724137931
+    },
+    "dev_66": {
+        "scaled attention": 0.10344827586206896,
+        "attention": 0.13793103448275862,
+        "gradients": 0.20689655172413793,
+        "ig": 0.3103448275862069,
+        "random": 0.5517241379310345
+    },
+    "dev_282": {
+        "attention": 0.1724137931034483,
+        "gradients": 0.20689655172413793,
+        "ig": 0.27586206896551724,
+        "scaled attention": 0.3103448275862069,
+        "random": 0.5172413793103449
+    },
+    "dev_771": {
+        "attention": 0.034482758620689655,
+        "scaled attention": 0.034482758620689655,
+        "random": 0.10344827586206896,
+        "gradients": 0.4827586206896552,
+        "ig": 1.0
+    },
+    "dev_441": {
+        "scaled attention": 0.1724137931034483,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_608": {
+        "scaled attention": 0.27586206896551724,
+        "random": 0.7241379310344828,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_284": {
+        "random": 0.41379310344827586,
+        "scaled attention": 0.4827586206896552,
+        "gradients": 0.5517241379310345,
+        "ig": 0.5517241379310345,
+        "attention": 0.5862068965517241
+    },
+    "dev_768": {
+        "ig": 0.06896551724137931,
+        "gradients": 0.10344827586206896,
+        "random": 0.13793103448275862,
+        "attention": 1.0,
+        "scaled attention": 1.0
+    },
+    "dev_783": {
+        "attention": 0.10344827586206896,
+        "scaled attention": 0.10344827586206896,
+        "random": 0.3103448275862069,
+        "gradients": 0.3448275862068966,
+        "ig": 0.6206896551724138
+    },
+    "dev_412": {
+        "attention": 0.10344827586206896,
+        "gradients": 0.3103448275862069,
+        "ig": 0.3103448275862069,
+        "scaled attention": 0.3793103448275862,
+        "random": 0.41379310344827586
+    },
+    "dev_52": {
+        "scaled attention": 0.3448275862068966,
+        "random": 0.41379310344827586,
+        "attention": 0.4482758620689655,
+        "ig": 0.4827586206896552,
+        "gradients": 0.5172413793103449
+    },
+    "dev_760": {
+        "random": 0.27586206896551724,
+        "gradients": 0.3103448275862069,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0
+    },
+    "dev_596": {
+        "gradients": 0.034482758620689655,
+        "ig": 0.034482758620689655,
+        "random": 0.034482758620689655,
+        "attention": 0.13793103448275862,
+        "scaled attention": 0.3793103448275862
+    },
+    "dev_650": {
+        "attention": 0.1,
+        "gradients": 0.16666666666666666,
+        "scaled attention": 0.16666666666666666,
+        "ig": 0.16666666666666666,
+        "random": 0.23333333333333334
+    },
+    "dev_713": {
+        "attention": 0.1,
+        "gradients": 0.16666666666666666,
+        "ig": 0.16666666666666666,
+        "random": 0.5666666666666667,
+        "scaled attention": 1.0
+    },
+    "dev_299": {
+        "attention": 0.16666666666666666,
+        "scaled attention": 0.16666666666666666,
+        "gradients": 0.36666666666666664,
+        "random": 0.6333333333333333,
+        "ig": 1.0
+    },
+    "dev_100": {
+        "attention": 0.1,
+        "scaled attention": 0.16666666666666666,
+        "gradients": 0.3,
+        "ig": 0.3,
+        "random": 0.43333333333333335
+    },
+    "dev_198": {
+        "attention": 0.3,
+        "gradients": 0.36666666666666664,
+        "scaled attention": 0.36666666666666664,
+        "ig": 0.5,
+        "random": 0.5666666666666667
+    },
+    "dev_158": {
+        "gradients": 0.03333333333333333,
+        "scaled attention": 0.03333333333333333,
+        "ig": 0.03333333333333333,
+        "attention": 0.1,
+        "random": 0.1
+    },
+    "dev_376": {
+        "attention": 0.23333333333333334,
+        "scaled attention": 0.23333333333333334,
+        "random": 0.43333333333333335,
+        "ig": 0.8333333333333334,
+        "gradients": 0.9
+    },
+    "dev_154": {
+        "attention": 0.1,
+        "scaled attention": 0.1,
+        "ig": 0.23333333333333334,
+        "random": 0.5,
+        "gradients": 0.8333333333333334
+    },
+    "dev_469": {
+        "ig": 0.03333333333333333,
+        "attention": 0.1,
+        "gradients": 0.1,
+        "scaled attention": 0.1,
+        "random": 0.1
+    },
+    "dev_793": {
+        "attention": 0.3,
+        "scaled attention": 0.36666666666666664,
+        "gradients": 0.43333333333333335,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_549": {
+        "attention": 0.16666666666666666,
+        "scaled attention": 0.16666666666666666,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_300": {
+        "attention": 0.36666666666666664,
+        "gradients": 0.36666666666666664,
+        "scaled attention": 0.5,
+        "ig": 0.8333333333333334,
+        "random": 0.8333333333333334
+    },
+    "dev_173": {
+        "attention": 0.36666666666666664,
+        "scaled attention": 0.36666666666666664,
+        "gradients": 0.5,
+        "ig": 0.5,
+        "random": 0.5
+    },
+    "dev_401": {
+        "attention": 0.3,
+        "scaled attention": 0.3,
+        "gradients": 0.5,
+        "ig": 0.5,
+        "random": 0.7
+    },
+    "dev_571": {
+        "attention": 0.1,
+        "scaled attention": 0.1,
+        "random": 0.3,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_587": {
+        "attention": 0.16666666666666666,
+        "scaled attention": 0.16666666666666666,
+        "gradients": 0.3,
+        "ig": 0.3,
+        "random": 0.6333333333333333
+    },
+    "dev_287": {
+        "random": 0.5666666666666667,
+        "ig": 0.6333333333333333,
+        "gradients": 0.7,
+        "attention": 0.7666666666666667,
+        "scaled attention": 0.7666666666666667
+    },
+    "dev_674": {
+        "scaled attention": 0.23333333333333334,
+        "ig": 0.3,
+        "attention": 0.5666666666666667,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_604": {
+        "gradients": 0.1,
+        "attention": 0.16666666666666666,
+        "scaled attention": 0.23333333333333334,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_769": {
+        "ig": 0.23333333333333334,
+        "attention": 0.3,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_362": {
+        "attention": 0.36666666666666664,
+        "gradients": 0.36666666666666664,
+        "scaled attention": 0.36666666666666664,
+        "random": 0.36666666666666664,
+        "ig": 0.43333333333333335
+    },
+    "dev_334": {
+        "attention": 0.22580645161290322,
+        "scaled attention": 0.22580645161290322,
+        "ig": 0.6129032258064516,
+        "random": 0.7419354838709677,
+        "gradients": 0.8064516129032258
+    },
+    "dev_779": {
+        "ig": 0.7419354838709677,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_869": {
+        "attention": 0.7419354838709677,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_14": {
+        "scaled attention": 0.03225806451612903,
+        "attention": 0.0967741935483871,
+        "random": 0.16129032258064516,
+        "gradients": 0.22580645161290322,
+        "ig": 0.22580645161290322
+    },
+    "dev_143": {
+        "attention": 0.4838709677419355,
+        "scaled attention": 0.5483870967741935,
+        "random": 0.6774193548387096,
+        "ig": 0.7419354838709677,
+        "gradients": 0.9354838709677419
+    },
+    "dev_437": {
+        "attention": 0.2903225806451613,
+        "scaled attention": 0.6129032258064516,
+        "gradients": 0.6774193548387096,
+        "random": 0.7419354838709677,
+        "ig": 0.8064516129032258
+    },
+    "dev_772": {
+        "attention": 0.16129032258064516,
+        "scaled attention": 0.16129032258064516,
+        "random": 0.8709677419354839,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_9": {
+        "gradients": 0.03225806451612903,
+        "scaled attention": 0.03225806451612903,
+        "ig": 0.03225806451612903,
+        "random": 0.03225806451612903,
+        "attention": 0.0967741935483871
+    },
+    "dev_338": {
+        "scaled attention": 0.22580645161290322,
+        "attention": 0.2903225806451613,
+        "gradients": 0.2903225806451613,
+        "random": 0.2903225806451613,
+        "ig": 0.4838709677419355
+    },
+    "dev_442": {
+        "gradients": 0.8064516129032258,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_782": {
+        "ig": 0.22580645161290322,
+        "gradients": 0.41935483870967744,
+        "scaled attention": 0.41935483870967744,
+        "attention": 0.4838709677419355,
+        "random": 0.6129032258064516
+    },
+    "dev_680": {
+        "attention": 0.03225806451612903,
+        "scaled attention": 0.03225806451612903,
+        "ig": 0.22580645161290322,
+        "gradients": 0.2903225806451613,
+        "random": 1.0
+    },
+    "dev_810": {
+        "attention": 0.0967741935483871,
+        "scaled attention": 0.0967741935483871,
+        "gradients": 0.22580645161290322,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_592": {
+        "attention": 0.03225806451612903,
+        "ig": 0.0967741935483871,
+        "gradients": 0.2903225806451613,
+        "scaled attention": 0.41935483870967744,
+        "random": 1.0
+    },
+    "dev_593": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_271": {
+        "attention": 0.22580645161290322,
+        "scaled attention": 0.3548387096774194,
+        "gradients": 0.41935483870967744,
+        "random": 0.4838709677419355,
+        "ig": 0.5483870967741935
+    },
+    "dev_653": {
+        "scaled attention": 0.03225806451612903,
+        "attention": 0.0967741935483871,
+        "ig": 0.2903225806451613,
+        "gradients": 0.4838709677419355,
+        "random": 0.5483870967741935
+    },
+    "dev_595": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_195": {
+        "scaled attention": 0.22580645161290322,
+        "ig": 0.22580645161290322,
+        "attention": 0.2903225806451613,
+        "gradients": 0.3548387096774194,
+        "random": 0.9354838709677419
+    },
+    "dev_319": {
+        "ig": 0.2903225806451613,
+        "gradients": 0.41935483870967744,
+        "random": 0.41935483870967744,
+        "attention": 0.4838709677419355,
+        "scaled attention": 0.6774193548387096
+    },
+    "dev_183": {
+        "attention": 0.4838709677419355,
+        "gradients": 0.7419354838709677,
+        "scaled attention": 0.7419354838709677,
+        "ig": 0.7419354838709677,
+        "random": 0.8064516129032258
+    },
+    "dev_75": {
+        "attention": 0.22580645161290322,
+        "ig": 0.3548387096774194,
+        "scaled attention": 0.6129032258064516,
+        "random": 0.8064516129032258,
+        "gradients": 0.9354838709677419
+    },
+    "dev_560": {
+        "attention": 0.22580645161290322,
+        "gradients": 0.3548387096774194,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_659": {
+        "attention": 0.41935483870967744,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_357": {
+        "ig": 0.3548387096774194,
+        "attention": 0.41935483870967744,
+        "random": 0.6129032258064516,
+        "gradients": 0.7419354838709677,
+        "scaled attention": 0.8709677419354839
+    },
+    "dev_33": {
+        "scaled attention": 0.3548387096774194,
+        "attention": 0.4838709677419355,
+        "ig": 0.6129032258064516,
+        "random": 0.6129032258064516,
+        "gradients": 0.6774193548387096
+    },
+    "dev_611": {
+        "attention": 0.16129032258064516,
+        "ig": 0.2903225806451613,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_378": {
+        "attention": 0.22580645161290322,
+        "ig": 0.2903225806451613,
+        "random": 0.2903225806451613,
+        "gradients": 0.3548387096774194,
+        "scaled attention": 0.3548387096774194
+    },
+    "dev_634": {
+        "scaled attention": 0.0967741935483871,
+        "attention": 0.16129032258064516,
+        "ig": 0.22580645161290322,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_386": {
+        "attention": 0.16129032258064516,
+        "scaled attention": 0.16129032258064516,
+        "gradients": 0.22580645161290322,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_122": {
+        "attention": 0.15625,
+        "gradients": 0.15625,
+        "scaled attention": 0.15625,
+        "ig": 0.15625,
+        "random": 0.15625
+    },
+    "dev_751": {
+        "attention": 0.09375,
+        "random": 0.15625,
+        "scaled attention": 0.28125,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_657": {
+        "attention": 0.21875,
+        "scaled attention": 0.21875,
+        "random": 0.71875,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_805": {
+        "scaled attention": 0.15625,
+        "attention": 0.21875,
+        "gradients": 0.28125,
+        "random": 0.40625,
+        "ig": 0.53125
+    },
+    "dev_837": {
+        "gradients": 0.21875,
+        "scaled attention": 0.21875,
+        "attention": 0.28125,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_413": {
+        "scaled attention": 0.53125,
+        "attention": 0.59375,
+        "gradients": 0.65625,
+        "ig": 0.84375,
+        "random": 0.84375
+    },
+    "dev_153": {
+        "gradients": 0.03125,
+        "scaled attention": 0.09375,
+        "attention": 0.15625,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_716": {
+        "attention": 0.03125,
+        "scaled attention": 0.09375,
+        "ig": 0.09375,
+        "random": 0.15625,
+        "gradients": 0.28125
+    },
+    "dev_70": {
+        "scaled attention": 0.21875,
+        "attention": 0.34375,
+        "gradients": 0.46875,
+        "ig": 0.46875,
+        "random": 0.90625
+    },
+    "dev_306": {
+        "attention": 0.21875,
+        "scaled attention": 0.21875,
+        "ig": 0.34375,
+        "gradients": 0.40625,
+        "random": 0.53125
+    },
+    "dev_11": {
+        "ig": 0.09375,
+        "attention": 0.15625,
+        "random": 0.15625,
+        "scaled attention": 0.21875,
+        "gradients": 0.53125
+    },
+    "dev_535": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_125": {
+        "attention": 0.40625,
+        "scaled attention": 0.40625,
+        "random": 0.40625,
+        "ig": 0.46875,
+        "gradients": 0.53125
+    },
+    "dev_180": {
+        "attention": 0.28125,
+        "scaled attention": 0.28125,
+        "ig": 0.28125,
+        "gradients": 0.46875,
+        "random": 0.71875
+    },
+    "dev_443": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_15": {
+        "attention": 0.21875,
+        "gradients": 0.34375,
+        "ig": 0.34375,
+        "random": 0.71875,
+        "scaled attention": 0.90625
+    },
+    "dev_819": {
+        "attention": 0.34375,
+        "ig": 0.40625,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_188": {
+        "attention": 0.28125,
+        "gradients": 0.65625,
+        "random": 0.65625,
+        "scaled attention": 0.71875,
+        "ig": 0.78125
+    },
+    "dev_367": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_5": {
+        "attention": 0.5151515151515151,
+        "gradients": 0.5757575757575758,
+        "scaled attention": 0.5757575757575758,
+        "random": 0.5757575757575758,
+        "ig": 0.696969696969697
+    },
+    "dev_312": {
+        "attention": 0.5151515151515151,
+        "scaled attention": 0.5151515151515151,
+        "ig": 0.696969696969697,
+        "random": 0.696969696969697,
+        "gradients": 0.7575757575757576
+    },
+    "dev_310": {
+        "scaled attention": 0.15151515151515152,
+        "attention": 0.3939393939393939,
+        "random": 0.3939393939393939,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_632": {
+        "gradients": 0.15151515151515152,
+        "ig": 0.15151515151515152,
+        "attention": 1.0,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_658": {
+        "ig": 0.45454545454545453,
+        "random": 0.45454545454545453,
+        "gradients": 0.5151515151515151,
+        "scaled attention": 0.5151515151515151,
+        "attention": 0.5757575757575758
+    },
+    "dev_785": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_317": {
+        "attention": 0.3939393939393939,
+        "scaled attention": 0.5151515151515151,
+        "gradients": 0.6363636363636364,
+        "ig": 0.8181818181818182,
+        "random": 0.8787878787878788
+    },
+    "dev_213": {
+        "attention": 0.21212121212121213,
+        "scaled attention": 0.21212121212121213,
+        "gradients": 0.2727272727272727,
+        "random": 0.3939393939393939,
+        "ig": 0.696969696969697
+    },
+    "dev_20": {
+        "attention": 0.09090909090909091,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_150": {
+        "scaled attention": 0.030303030303030304,
+        "attention": 0.09090909090909091,
+        "random": 0.21212121212121213,
+        "ig": 0.3333333333333333,
+        "gradients": 1.0
+    },
+    "dev_353": {
+        "gradients": 0.030303030303030304,
+        "ig": 0.030303030303030304,
+        "random": 0.030303030303030304,
+        "attention": 0.09090909090909091,
+        "scaled attention": 0.9393939393939394
+    },
+    "dev_567": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_360": {
+        "scaled attention": 0.3939393939393939,
+        "random": 0.45454545454545453,
+        "gradients": 0.5151515151515151,
+        "ig": 0.5151515151515151,
+        "attention": 0.5757575757575758
+    },
+    "dev_34": {
+        "attention": 0.030303030303030304,
+        "scaled attention": 0.030303030303030304,
+        "ig": 0.15151515151515152,
+        "gradients": 0.2727272727272727,
+        "random": 0.696969696969697
+    },
+    "dev_660": {
+        "attention": 0.2727272727272727,
+        "scaled attention": 0.2727272727272727,
+        "ig": 0.5151515151515151,
+        "random": 0.5151515151515151,
+        "gradients": 0.8787878787878788
+    },
+    "dev_382": {
+        "attention": 0.3333333333333333,
+        "gradients": 0.3939393939393939,
+        "scaled attention": 0.3939393939393939,
+        "ig": 0.45454545454545453,
+        "random": 0.5151515151515151
+    },
+    "dev_48": {
+        "attention": 0.38235294117647056,
+        "scaled attention": 0.6176470588235294,
+        "gradients": 0.6764705882352942,
+        "random": 0.7352941176470589,
+        "ig": 0.7941176470588235
+    },
+    "dev_623": {
+        "scaled attention": 0.4411764705882353,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_516": {
+        "gradients": 0.2647058823529412,
+        "scaled attention": 0.4411764705882353,
+        "ig": 0.5,
+        "attention": 1.0,
+        "random": 1.0
+    },
+    "dev_228": {
+        "attention": 0.20588235294117646,
+        "scaled attention": 0.2647058823529412,
+        "gradients": 0.38235294117647056,
+        "random": 0.5588235294117647,
+        "ig": 0.6176470588235294
+    },
+    "dev_426": {
+        "ig": 0.3235294117647059,
+        "scaled attention": 0.38235294117647056,
+        "attention": 0.4411764705882353,
+        "random": 0.6764705882352942,
+        "gradients": 0.7352941176470589
+    },
+    "dev_410": {
+        "attention": 0.3235294117647059,
+        "scaled attention": 0.3235294117647059,
+        "ig": 0.4411764705882353,
+        "gradients": 0.5,
+        "random": 0.8529411764705882
+    },
+    "dev_439": {
+        "gradients": 0.14705882352941177,
+        "scaled attention": 0.14705882352941177,
+        "ig": 0.14705882352941177,
+        "random": 0.3235294117647059,
+        "attention": 0.6764705882352942
+    },
+    "dev_283": {
+        "attention": 0.08823529411764706,
+        "ig": 0.08823529411764706,
+        "gradients": 0.3235294117647059,
+        "random": 0.4411764705882353,
+        "scaled attention": 0.6764705882352942
+    },
+    "dev_68": {
+        "attention": 0.4411764705882353,
+        "scaled attention": 0.5588235294117647,
+        "gradients": 0.7352941176470589,
+        "random": 0.7941176470588235,
+        "ig": 0.8529411764705882
+    },
+    "dev_602": {
+        "attention": 0.08823529411764706,
+        "scaled attention": 0.4411764705882353,
+        "random": 0.5,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_144": {
+        "ig": 0.14705882352941177,
+        "random": 0.14705882352941177,
+        "attention": 0.2647058823529412,
+        "scaled attention": 0.2647058823529412,
+        "gradients": 0.5
+    },
+    "dev_145": {
+        "attention": 0.20588235294117646,
+        "scaled attention": 0.20588235294117646,
+        "ig": 0.3235294117647059,
+        "gradients": 0.4411764705882353,
+        "random": 0.5
+    },
+    "dev_581": {
+        "scaled attention": 0.029411764705882353,
+        "random": 0.029411764705882353,
+        "attention": 0.20588235294117646,
+        "ig": 0.20588235294117646,
+        "gradients": 1.0
+    },
+    "dev_745": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_272": {
+        "attention": 0.3235294117647059,
+        "scaled attention": 0.38235294117647056,
+        "ig": 0.4411764705882353,
+        "random": 0.4411764705882353,
+        "gradients": 0.6176470588235294
+    },
+    "dev_508": {
+        "attention": 0.08823529411764706,
+        "gradients": 0.14705882352941177,
+        "scaled attention": 0.14705882352941177,
+        "random": 0.14705882352941177,
+        "ig": 0.38235294117647056
+    },
+    "dev_22": {
+        "attention": 0.3235294117647059,
+        "scaled attention": 0.38235294117647056,
+        "gradients": 0.4411764705882353,
+        "random": 0.5,
+        "ig": 0.8529411764705882
+    },
+    "dev_871": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_115": {
+        "attention": 0.14285714285714285,
+        "scaled attention": 0.14285714285714285,
+        "random": 0.4857142857142857,
+        "ig": 0.6,
+        "gradients": 0.6571428571428571
+    },
+    "dev_129": {
+        "attention": 0.14285714285714285,
+        "scaled attention": 0.5428571428571428,
+        "gradients": 0.6571428571428571,
+        "random": 0.6571428571428571,
+        "ig": 0.8857142857142857
+    },
+    "dev_510": {
+        "attention": 0.14285714285714285,
+        "gradients": 0.3142857142857143,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_230": {
+        "attention": 0.14285714285714285,
+        "scaled attention": 0.14285714285714285,
+        "random": 0.2,
+        "gradients": 0.2571428571428571,
+        "ig": 0.37142857142857144
+    },
+    "dev_216": {
+        "attention": 0.3142857142857143,
+        "gradients": 0.5428571428571428,
+        "scaled attention": 0.7714285714285715,
+        "random": 0.7714285714285715,
+        "ig": 0.9428571428571428
+    },
+    "dev_667": {
+        "attention": 0.2571428571428571,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_685": {
+        "attention": 0.08571428571428572,
+        "ig": 0.14285714285714285,
+        "gradients": 0.2,
+        "scaled attention": 0.2,
+        "random": 1.0
+    },
+    "dev_384": {
+        "random": 0.37142857142857144,
+        "attention": 0.5428571428571428,
+        "ig": 0.5428571428571428,
+        "scaled attention": 0.6,
+        "gradients": 0.7142857142857143
+    },
+    "dev_757": {
+        "attention": 0.08571428571428572,
+        "scaled attention": 0.08571428571428572,
+        "gradients": 0.14285714285714285,
+        "ig": 0.14285714285714285,
+        "random": 1.0
+    },
+    "dev_747": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_138": {
+        "attention": 0.02857142857142857,
+        "gradients": 0.02857142857142857,
+        "scaled attention": 0.02857142857142857,
+        "ig": 0.02857142857142857,
+        "random": 0.2571428571428571
+    },
+    "dev_163": {
+        "attention": 0.1388888888888889,
+        "ig": 0.25,
+        "random": 0.4722222222222222,
+        "gradients": 0.6388888888888888,
+        "scaled attention": 0.9166666666666666
+    },
+    "dev_298": {
+        "attention": 0.4722222222222222,
+        "scaled attention": 0.4722222222222222,
+        "random": 0.4722222222222222,
+        "ig": 0.5277777777777778,
+        "gradients": 0.6388888888888888
+    },
+    "dev_281": {
+        "scaled attention": 0.1388888888888889,
+        "attention": 0.19444444444444445,
+        "ig": 0.4166666666666667,
+        "gradients": 0.4722222222222222,
+        "random": 0.5277777777777778
+    },
+    "dev_536": {
+        "scaled attention": 0.4722222222222222,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_244": {
+        "scaled attention": 0.3055555555555556,
+        "attention": 0.3611111111111111,
+        "random": 0.4166666666666667,
+        "gradients": 0.4722222222222222,
+        "ig": 0.4722222222222222
+    },
+    "dev_589": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_700": {
+        "scaled attention": 0.08333333333333333,
+        "attention": 0.1388888888888889,
+        "ig": 0.3611111111111111,
+        "gradients": 0.4722222222222222,
+        "random": 0.5833333333333334
+    },
+    "dev_6": {
+        "attention": 0.25,
+        "scaled attention": 0.3055555555555556,
+        "random": 0.5833333333333334,
+        "gradients": 0.75,
+        "ig": 0.75
+    },
+    "dev_621": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_832": {
+        "attention": 0.19444444444444445,
+        "scaled attention": 0.19444444444444445,
+        "random": 0.4166666666666667,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_90": {
+        "ig": 0.08333333333333333,
+        "attention": 0.19444444444444445,
+        "scaled attention": 0.19444444444444445,
+        "gradients": 0.3055555555555556,
+        "random": 0.3055555555555556
+    },
+    "dev_725": {
+        "attention": 0.3611111111111111,
+        "scaled attention": 0.3611111111111111,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_719": {
+        "attention": 0.19444444444444445,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_677": {
+        "attention": 0.08333333333333333,
+        "ig": 0.08333333333333333,
+        "random": 0.08333333333333333,
+        "gradients": 0.1388888888888889,
+        "scaled attention": 0.4722222222222222
+    },
+    "dev_635": {
+        "attention": 0.08333333333333333,
+        "scaled attention": 0.08333333333333333,
+        "gradients": 0.25,
+        "ig": 0.25,
+        "random": 0.4166666666666667
+    },
+    "dev_219": {
+        "gradients": 0.2972972972972973,
+        "attention": 0.40540540540540543,
+        "random": 0.40540540540540543,
+        "scaled attention": 0.4594594594594595,
+        "ig": 0.6216216216216216
+    },
+    "dev_318": {
+        "attention": 0.5675675675675675,
+        "gradients": 0.6756756756756757,
+        "random": 0.7297297297297297,
+        "scaled attention": 0.7837837837837838,
+        "ig": 0.7837837837837838
+    },
+    "dev_492": {
+        "scaled attention": 0.13513513513513514,
+        "attention": 0.24324324324324326,
+        "ig": 0.2972972972972973,
+        "gradients": 1.0,
+        "random": 1.0
+    },
+    "dev_692": {
+        "scaled attention": 0.02702702702702703,
+        "attention": 0.08108108108108109,
+        "gradients": 0.24324324324324326,
+        "random": 0.6216216216216216,
+        "ig": 1.0
+    },
+    "dev_690": {
+        "attention": 0.02702702702702703,
+        "gradients": 0.02702702702702703,
+        "ig": 0.02702702702702703,
+        "scaled attention": 1.0,
+        "random": 1.0
+    },
+    "dev_679": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_797": {
+        "scaled attention": 0.13513513513513514,
+        "attention": 0.4594594594594595,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_542": {
+        "attention": 0.08108108108108109,
+        "scaled attention": 0.08108108108108109,
+        "random": 0.1891891891891892,
+        "ig": 0.24324324324324326,
+        "gradients": 1.0
+    },
+    "dev_248": {
+        "attention": 0.13513513513513514,
+        "ig": 0.13513513513513514,
+        "scaled attention": 0.1891891891891892,
+        "gradients": 0.24324324324324326,
+        "random": 0.5675675675675675
+    },
+    "dev_575": {
+        "attention": 0.08108108108108109,
+        "gradients": 0.1891891891891892,
+        "scaled attention": 0.1891891891891892,
+        "ig": 0.24324324324324326,
+        "random": 1.0
+    },
+    "dev_16": {
+        "scaled attention": 0.08108108108108109,
+        "attention": 0.13513513513513514,
+        "ig": 0.24324324324324326,
+        "random": 0.24324324324324326,
+        "gradients": 0.2972972972972973
+    },
+    "dev_664": {
+        "scaled attention": 0.2972972972972973,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_91": {
+        "attention": 0.1891891891891892,
+        "scaled attention": 0.1891891891891892,
+        "gradients": 0.2972972972972973,
+        "ig": 0.2972972972972973,
+        "random": 0.5135135135135135
+    },
+    "dev_32": {
+        "attention": 0.02702702702702703,
+        "gradients": 0.02702702702702703,
+        "scaled attention": 0.02702702702702703,
+        "ig": 0.02702702702702703,
+        "random": 0.08108108108108109
+    },
+    "dev_235": {
+        "attention": 0.23684210526315788,
+        "gradients": 0.34210526315789475,
+        "scaled attention": 0.34210526315789475,
+        "ig": 0.34210526315789475,
+        "random": 0.6052631578947368
+    },
+    "dev_320": {
+        "attention": 0.18421052631578946,
+        "gradients": 0.5526315789473685,
+        "ig": 0.5526315789473685,
+        "random": 0.8157894736842105,
+        "scaled attention": 0.9736842105263158
+    },
+    "dev_860": {
+        "gradients": 0.02631578947368421,
+        "attention": 0.07894736842105263,
+        "scaled attention": 0.07894736842105263,
+        "ig": 0.18421052631578946,
+        "random": 1.0
+    },
+    "dev_762": {
+        "attention": 0.07894736842105263,
+        "scaled attention": 0.13157894736842105,
+        "random": 0.23684210526315788,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_610": {
+        "attention": 0.13157894736842105,
+        "scaled attention": 0.13157894736842105,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_73": {
+        "scaled attention": 0.4473684210526316,
+        "attention": 0.5,
+        "ig": 0.5526315789473685,
+        "gradients": 0.6578947368421053,
+        "random": 0.6578947368421053
+    },
+    "dev_27": {
+        "ig": 0.2894736842105263,
+        "random": 0.39473684210526316,
+        "attention": 0.4473684210526316,
+        "gradients": 0.6052631578947368,
+        "scaled attention": 0.6052631578947368
+    },
+    "dev_42": {
+        "attention": 0.02631578947368421,
+        "ig": 0.18421052631578946,
+        "random": 0.23684210526315788,
+        "gradients": 0.34210526315789475,
+        "scaled attention": 0.4473684210526316
+    },
+    "dev_591": {
+        "attention": 0.1794871794871795,
+        "scaled attention": 0.1794871794871795,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_562": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_544": {
+        "attention": 0.02564102564102564,
+        "scaled attention": 0.02564102564102564,
+        "random": 0.07692307692307693,
+        "gradients": 0.1282051282051282,
+        "ig": 1.0
+    },
+    "dev_226": {
+        "ig": 0.48717948717948717,
+        "random": 0.5384615384615384,
+        "attention": 0.5897435897435898,
+        "gradients": 0.5897435897435898,
+        "scaled attention": 0.6923076923076923
+    },
+    "dev_480": {
+        "scaled attention": 0.1794871794871795,
+        "gradients": 0.3333333333333333,
+        "attention": 0.5384615384615384,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_77": {
+        "scaled attention": 0.3333333333333333,
+        "attention": 0.38461538461538464,
+        "ig": 0.48717948717948717,
+        "gradients": 0.6410256410256411,
+        "random": 0.6923076923076923
+    },
+    "dev_379": {
+        "attention": 0.28205128205128205,
+        "scaled attention": 0.28205128205128205,
+        "gradients": 0.3333333333333333,
+        "random": 0.5384615384615384,
+        "ig": 0.6410256410256411
+    },
+    "dev_381": {
+        "attention": 0.07692307692307693,
+        "scaled attention": 0.07692307692307693,
+        "ig": 0.07692307692307693,
+        "gradients": 0.1794871794871795,
+        "random": 0.7435897435897436
+    },
+    "dev_463": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_321": {
+        "attention": 0.1794871794871795,
+        "scaled attention": 0.28205128205128205,
+        "ig": 0.28205128205128205,
+        "gradients": 0.4358974358974359,
+        "random": 0.4358974358974359
+    },
+    "dev_824": {
+        "attention": 0.07692307692307693,
+        "scaled attention": 0.07692307692307693,
+        "random": 0.48717948717948717,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_190": {
+        "attention": 0.175,
+        "random": 0.425,
+        "gradients": 0.675,
+        "scaled attention": 0.875,
+        "ig": 0.875
+    },
+    "dev_656": {
+        "scaled attention": 0.225,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_699": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_739": {
+        "attention": 0.025,
+        "scaled attention": 0.025,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_495": {
+        "attention": 0.025,
+        "gradients": 0.025,
+        "scaled attention": 0.025,
+        "random": 0.025,
+        "ig": 0.575
+    },
+    "dev_494": {
+        "scaled attention": 0.075,
+        "attention": 0.125,
+        "ig": 0.225,
+        "random": 0.225,
+        "gradients": 1.0
+    },
+    "dev_328": {
+        "scaled attention": 0.12195121951219512,
+        "ig": 0.2682926829268293,
+        "random": 0.3170731707317073,
+        "attention": 0.36585365853658536,
+        "gradients": 0.4634146341463415
+    },
+    "dev_825": {
+        "attention": 0.3170731707317073,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_152": {
+        "attention": 0.17073170731707318,
+        "scaled attention": 0.17073170731707318,
+        "ig": 0.17073170731707318,
+        "gradients": 0.5609756097560976,
+        "random": 0.8536585365853658
+    },
+    "dev_78": {
+        "attention": 0.07317073170731707,
+        "scaled attention": 0.36585365853658536,
+        "ig": 0.4146341463414634,
+        "gradients": 0.8048780487804879,
+        "random": 0.8536585365853658
+    },
+    "dev_613": {
+        "attention": 0.023809523809523808,
+        "scaled attention": 0.023809523809523808,
+        "random": 0.40476190476190477,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_352": {
+        "attention": 0.16279069767441862,
+        "scaled attention": 0.16279069767441862,
+        "ig": 0.3488372093023256,
+        "gradients": 0.6744186046511628,
+        "random": 0.6744186046511628
+    },
+    "dev_559": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_65": {
+        "ig": 0.4222222222222222,
+        "attention": 0.4666666666666667,
+        "scaled attention": 0.5555555555555556,
+        "gradients": 0.6,
+        "random": 0.6444444444444445
+    },
+    "dev_435": {
+        "attention": 0.06666666666666667,
+        "scaled attention": 0.06666666666666667,
+        "ig": 0.3333333333333333,
+        "gradients": 0.4666666666666667,
+        "random": 0.7333333333333333
+    },
+    "dev_436": {
+        "attention": 0.06666666666666667,
+        "scaled attention": 0.06666666666666667,
+        "gradients": 0.1111111111111111,
+        "random": 0.24444444444444444,
+        "ig": 0.7777777777777778
+    },
+    "dev_451": {
+        "scaled attention": 0.022222222222222223,
+        "ig": 0.022222222222222223,
+        "attention": 0.15555555555555556,
+        "random": 0.5111111111111111,
+        "gradients": 0.6888888888888889
+    },
+    "dev_765": {
+        "scaled attention": 0.15555555555555556,
+        "attention": 0.2,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_598": {
+        "attention": 0.1111111111111111,
+        "gradients": 0.4666666666666667,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_227": {
+        "attention": 0.2391304347826087,
+        "scaled attention": 0.2391304347826087,
+        "ig": 0.41304347826086957,
+        "random": 0.45652173913043476,
+        "gradients": 0.5434782608695652
+    },
+    "dev_269": {
+        "scaled attention": 0.6304347826086957,
+        "ig": 0.6739130434782609,
+        "attention": 0.717391304347826,
+        "gradients": 0.717391304347826,
+        "random": 0.9347826086956522
+    },
+    "dev_105": {
+        "attention": 0.5869565217391305,
+        "scaled attention": 0.5869565217391305,
+        "ig": 0.6739130434782609,
+        "random": 0.6739130434782609,
+        "gradients": 0.9347826086956522
+    },
+    "dev_453": {
+        "attention": 0.15217391304347827,
+        "scaled attention": 0.15217391304347827,
+        "random": 0.2826086956521739,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_845": {
+        "ig": 0.3125,
+        "attention": 0.4791666666666667,
+        "random": 0.8541666666666666,
+        "gradients": 1.0,
+        "scaled attention": 1.0
+    },
+    "dev_501": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_624": {
+        "random": 0.020833333333333332,
+        "attention": 0.10416666666666667,
+        "gradients": 0.2708333333333333,
+        "ig": 0.4375,
+        "scaled attention": 0.8125
+    },
+    "dev_801": {
+        "attention": 0.1875,
+        "scaled attention": 0.22916666666666666,
+        "random": 0.5625,
+        "gradients": 1.0,
+        "ig": 1.0
+    },
+    "dev_672": {
+        "attention": 1.0,
+        "gradients": 1.0,
+        "scaled attention": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    },
+    "dev_740": {
+        "scaled attention": 0.020833333333333332,
+        "attention": 1.0,
+        "gradients": 1.0,
+        "ig": 1.0,
+        "random": 1.0
+    }
+}

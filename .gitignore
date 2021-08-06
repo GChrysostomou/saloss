@@ -1,0 +1,6 @@
+datasets/
+experiment_config/
+experiment_logs/
+*.sh
+test_flip/*/*of.json
+models/

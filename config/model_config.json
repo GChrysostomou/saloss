@@ -1,0 +1,55 @@
+{   "epochs" : 10,
+    "model_abbreviation" :      {"bert-base-uncased": "bert", 
+                                 "allenai/scibert_scivocab_uncased": "scibert",
+                                 "roberta-base": "roberta"},
+    "evinf" : {
+        "rationale_length" : 0.1,
+        "batch_size" : 4,
+        "lr_bert" : 5e-6,
+        "lr_classifier" : 2e-4,
+        "lr_sali" : 1e-4,
+        "model" : "allenai/scibert_scivocab_uncased"
+    },
+
+    "multirc" : {
+        "rationale_length" : 0.2,
+        "batch_size" : 4,
+        "lr_bert" : 2e-6,
+        "lr_classifier" : 2e-4,
+        "lr_sali" : 1e-3,
+        "model" : "roberta-base"
+    },
+    "sst" : {
+        "rationale_length" : 0.2,
+        "batch_size": 8,
+        "lr_bert" : 1e-5,
+        "lr_classifier" : 1e-4,
+        "lr_sali" : 1e-3,
+        "model" : "bert-base-uncased"
+    },
+    "agnews" : {
+        "rationale_length" : 0.2,
+        "batch_size": 4,
+        "lr_bert" : 1e-5,
+        "lr_classifier" : 1e-4,
+        "lr_sali" : 1e-4,
+        "model" : "bert-base-uncased"
+    },
+    "subj" : {
+        "rationale_length" : 0.1,
+        "batch_size": 8,
+        "lr_bert" : 1e-5,
+        "lr_classifier" : 1e-4,
+        "lr_sali" : 1e-2,
+        "model" : "bert-base-uncased"
+    },
+    "semeval" : {
+        "rationale_length" : 0.2,
+        "batch_size": 8,
+        "lr_bert" : 1e-5,
+        "lr_classifier" : 1e-4,
+        "lr_sali" : 1e-3,
+        "model" : "bert-base-uncased"
+    }
+}
+
