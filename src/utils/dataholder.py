@@ -23,14 +23,12 @@ from config.cfg import AttrDict
 with open(config.cfg.config_directory + 'instance_config.json', 'r') as f:
     args = AttrDict(json.load(f))
 
-from sklearn.model_selection import train_test_split
-
 class classification_dataholder():
     """
     class that holds our data, pretrained tokenizer and set sequence length 
     for a classification task
     """
-    def __init__(self, path = str, b_size = 8 , mask_list = list, for_rationale = False):
+    def __init__(self, path : str, b_size :int , for_rationale : bool = False, return_as_dfs :bool = False):
         
         assert type(b_size) == int
         
@@ -44,14 +42,13 @@ class classification_dataholder():
 
         if args.retrain:
 
-            if args["saliency_scorer"]:
+            if args["saliency_scorer"] is None: sal_scorer = ""
+            else: sal_scorer = args["saliency_scorer"] + "_"
 
-                path = args["data_dir"] + args["thresholder"] + "/" + args["saliency_scorer"] + "/" + args.importance_metric + "_"
-            else:
-
-                path = args["data_dir"]  + args["thresholder"] + "/vanilla/" + args.importance_metric + "_"
-
+            path = f"{args.data_dir}{args.thresholder}/{args.importance_metric}-{sal_scorer}"
+           
             logging.info(" ** Loading rationales on dataholder form {} ** ".format(path))
+
         """
         loads data for a classification task from preprocessed .csv 
         files in the dataset/data folder
@@ -61,19 +58,6 @@ class classification_dataholder():
         train = pd.read_csv(path + "train.csv")#.sample(frac = 0.01, random_state = 1)
         dev = pd.read_csv(path + "dev.csv")#.sample(frac = 0.01, random_state = 1)
         test = pd.read_csv(path + "test.csv")#.sample(frac = 0.01, random_state = 1)
-        if "devel_stage" in args:
-
-            if args.devel_stage:
-
-                _, dev = train_test_split(dev, test_size = 0.2, random_state = 200, stratify = dev.label)
-        
-        if for_rationale:
-            # rename back to normal
-            # originally named them as gold_label to avoid confusion
-            # that these were the labels the model has predicted
-            train = train.rename(columns = {"gold_label":"label"})
-            dev = dev.rename(columns = {"gold_label":"label"})
-            test = test.rename(columns = {"gold_label":"label"})
 
         # # if our dataset is part of a context-query task
         # # find max len of both context and query
@@ -212,6 +196,13 @@ class classification_dataholder():
         test["text"] = test.text.transform(lambda x:x["input_ids"])
         test["lengths"] = test.attention_mask.apply(lambda x: sum(x))
 
+        if return_as_dfs:
+
+            self.df_version = {
+                "train" : train,
+                "dev" : dev,
+                "test" : test
+            }
         # sort by length
 
         train = train.sort_values("lengths", ascending = True)
@@ -246,3 +237,8 @@ class classification_dataholder():
         del train
         del dev
         del test
+
+
+    def return_as_dfs_(self, data_split_name):
+
+        return self.df_version[data_split_name]

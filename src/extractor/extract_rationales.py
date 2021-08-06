@@ -18,7 +18,7 @@ with open(config.cfg.config_directory + 'instance_config.json', 'r') as f:
     args = AttrDict(json.load(f))
     
 from src.models.bert import bert
-from src.importance_metrics.rationalizer import extractor_
+from src.extractor.rationalizer import register_importance_, extractor_
 from src.importance_metrics.imp_ex import extract_importance_scores_
 
 from src.extractor.thresholders import thresholders
@@ -39,8 +39,6 @@ class extractor():
 
         if args["saliency_scorer"] is None: sal_scorer = ""
         else: sal_scorer = args["saliency_scorer"] + "_"
-
-        assert args["saliency_scorer"] in {"tfidf", "textrank", "chisquared"}
 
         current_model = glob.glob(args["save_path"] + sal_scorer + args["model_abbreviation"] + "*.pt")[0]
         
@@ -73,20 +71,34 @@ class extractor():
     def _extract_rationales(self, data):
 
          # create train, dev, test set with the attention and gradient rationales
-        for key, loader in {"train":data.train_loader, "dev":data.dev_loader, "test":data.test_loader}.items():
-        # for key, loader in {"dev":data.dev_loader}.items():
-            
-            att_rat, grad_rat,  att_grad, ig_set = extractor_(model = self.model, data = loader, 
-                                                                        tokenizer = data.tokenizer, key = key)
+        for data_split_name, dataloader in {"train":data.train_loader, "dev":data.dev_loader, "test":data.test_loader}.items():
 
-            # save to newly created directory
-            pd.DataFrame(att_rat).to_csv(self.rationale_path  + "attention_"+key+".csv", index = False)
-            pd.DataFrame(grad_rat).to_csv(self.rationale_path  + "gradients_"+key+".csv", index = False)
-            pd.DataFrame(att_grad).to_csv(self.rationale_path  + "attention-gradients_"+key+".csv", index = False)
-            pd.DataFrame(ig_set).to_csv(self.rationale_path  + "integrated-gradients_"+key+".csv", index = False)
+            register_importance_(
+                model = self.model,
+                data = dataloader,
+                data_split_name = data_split_name
+            )
 
+            extractor_(
+                data_as_df = data.return_as_dfs_(
+                    data_split_name = data_split_name
+                ),
+                data_split_name = data_split_name,
+                tokenizer = data.tokenizer,
+                thresholder_name="topk"
+            )
+
+            extractor_(
+                data_as_df = data.return_as_dfs_(
+                    data_split_name = data_split_name
+                ),
+                data_split_name = data_split_name,
+                tokenizer = data.tokenizer,
+                thresholder_name="contigious"
+            )
         # empty cache - model no longer needed
         del self.model
         del data
 
+        return
         

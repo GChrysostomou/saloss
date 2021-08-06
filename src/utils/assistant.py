@@ -212,7 +212,7 @@ def wpiece2word(tokenizer, sentence, weights, print_err = False):
     for i in range(len(tokens)):
 
         word = tokens[i]
-        score = weights[i].clone().detach().data
+        score = weights[i]
 
         if "##" not in word:
             

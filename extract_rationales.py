@@ -117,7 +117,11 @@ from src.utils import dataholder
 from src.utils.dataholder import classification_dataholder
 
 
-data = classification_dataholder(args["data_dir"], b_size = args["batch_size"])
+data = classification_dataholder(
+    args["data_dir"], 
+    b_size = args["batch_size"],
+    return_as_dfs=True
+)
 
 from src.extractor.extract_rationales import extractor
 

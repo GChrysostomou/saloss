@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import torch
 import math 
 import numpy as np
 
 class thresholders(object):
 
-    def contigious(self,input, original_length, rationale_length = 0.1):
+    def contigious(scores, original_length, rationale_length = 0.1):
 
         """ 
         Contiguous rationale extractor
@@ -35,14 +34,14 @@ class thresholders(object):
 
         if max_length == 0: max_length = 1
 
-        nodes = np.stack([input[i:i + max_length] for i in range(len(input) - max_length + 1)])
-        indxs = [np.arange(i, i+max_length) for i in range(len(input) - max_length + 1)]
+        nodes = np.stack([scores[i:i + max_length] for i in range(len(scores) - max_length + 1)])
+        indxs = [np.arange(i, i+max_length) for i in range(len(scores) - max_length + 1)]
 
         max_node = np.argmax(nodes.sum(-1))
 
         return indxs[max_node]
 
-    def topk(self,input, original_length, rationale_length = 0.1):
+    def topk(scores, original_length, rationale_length = 0.1):
 
         """ 
         topk rationale extractor
@@ -70,6 +69,6 @@ class thresholders(object):
 
         if max_length == 0: max_length = 1
 
-        indxs = np.argsort(-np.asarray(input))[:max_length]
+        indxs = np.argsort(-np.asarray(scores))[:max_length]
 
         return indxs
