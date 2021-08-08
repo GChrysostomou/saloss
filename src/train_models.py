@@ -79,7 +79,13 @@ def train_and_save(train_data_loader, dev_data_loader, for_rationale = False, ou
         correct_bias = False
         )
 
-    saving_model = args["save_path"] + sal_scorer + args["model_abbreviation"] + str(model_run_seed) + ".pt"
+    if args.train_on_rat:
+        
+        saving_model = args["save_path"] + sal_scorer + args["importance_metric"] + "-" + args["model_abbreviation"] + str(model_run_seed) + ".pt"
+
+    else:
+
+        saving_model = args["save_path"] + sal_scorer + args["model_abbreviation"] + str(model_run_seed) + ".pt"
 
     dev_results, results_to_save = train_model(
         model,  
@@ -93,15 +99,27 @@ def train_and_save(train_data_loader, dev_data_loader, for_rationale = False, ou
         run = run_train,
         seed = model_run_seed
     )
+
+    if args.train_on_rat:
+        
+        text_file = open(args["save_path"] + "model_run_stats/" + sal_scorer + args["importance_metric"] + "-" + args["model_abbreviation"] + "_seed_" + str(model_run_seed) + ".txt", "w")
+
+    else:
     
-    text_file = open(args["save_path"] + "model_run_stats/" + sal_scorer + args["model_abbreviation"] + "_seed_" + str(model_run_seed) + ".txt", "w")
+        text_file = open(args["save_path"] + "model_run_stats/" + sal_scorer + args["model_abbreviation"] + "_seed_" + str(model_run_seed) + ".txt", "w")
 
     text_file.write(results_to_save)
     text_file.close()
 
     df = pd.DataFrame.from_dict(dev_results)
 
-    df.to_csv(args["save_path"] + "model_run_stats/" + sal_scorer + args["model_abbreviation"] + "_best_model_dev_seed_" + str(model_run_seed) + ".csv")
+    if args.train_on_rat:
+
+        df.to_csv(args["save_path"] + "model_run_stats/" + sal_scorer + args["importance_metric"] + "-" + args["model_abbreviation"] + "_best_model_dev_seed_" + str(model_run_seed) + ".csv")
+
+    else:
+
+        df.to_csv(args["save_path"] + "model_run_stats/" + sal_scorer + args["model_abbreviation"] + "_best_model_dev_seed_" + str(model_run_seed) + ".csv")
 
     ## free up space 
     del model
@@ -124,7 +142,14 @@ def test_predictive_performance(test_data_loader, for_rationale = False, output_
     if args["saliency_scorer"] is None: sal_scorer = ""
     else: sal_scorer = args["saliency_scorer"] + "_"
 
-    saved_models = glob.glob(args["save_path"] + sal_scorer + "*.pt")
+    if args.train_on_rat:
+
+        saved_models = glob.glob(args["save_path"] + sal_scorer + args["importance_metric"] + "*.pt")
+    
+    else:
+
+        saved_models = glob.glob(args["save_path"] + sal_scorer + "*.pt")
+    
     stats_report = {}
 
     logging.info("-------------------------------------")
@@ -132,7 +157,13 @@ def test_predictive_performance(test_data_loader, for_rationale = False, output_
     
     for current_model in saved_models:
         
-        seed = re.sub(sal_scorer + "bert", "", current_model.split(".pt")[0].split("/")[-1])
+        if args.train_on_rat:
+
+            seed = re.sub(sal_scorer + args["importance_metric"] + "-bert", "", current_model.split(".pt")[0].split("/")[-1])
+
+        else:
+
+            seed = re.sub(sal_scorer + "bert", "", current_model.split(".pt")[0].split("/")[-1])
 
         model = bert(masked_list=[0,101,102], output_dim = output_dims)
      
@@ -182,10 +213,15 @@ def test_predictive_performance(test_data_loader, for_rationale = False, output_
         models_to_get_ridoff, _ = zip(*sorted_list[:len(saved_models) - 1])
 
     for item in models_to_get_ridoff:
-        
-        os.remove(args["save_path"] +  sal_scorer + args["model_abbreviation"] + str(item) + ".pt")
 
-    
+        if args.train_on_rat:
+        
+            os.remove(args["save_path"] +  sal_scorer + args["importance_metric"] + "-" + args["model_abbreviation"] + str(item) + ".pt")
+
+        else:
+
+            os.remove(args["save_path"] +  sal_scorer  + args["model_abbreviation"] + str(item) + ".pt")
+
     """
     saving the stats
     """
@@ -194,7 +230,6 @@ def test_predictive_performance(test_data_loader, for_rationale = False, output_
     stats_report["std"] = np.asarray(list(stats_report.values())).std()
     stats_report = {k:[v] for k,v in stats_report.items()}
     
-    import pdb; pdb.set_trace()
     df = pd.DataFrame(stats_report).T
 
     if args.train_on_rat:

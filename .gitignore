@@ -6,3 +6,4 @@ test_flip/*/*of.json
 models/
 rationale_models/
 extracted_rationales/
+*.out

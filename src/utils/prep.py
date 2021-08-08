@@ -24,7 +24,7 @@ def prepare_config(user_args, stage):
     ""
   )
 
-  if (stage == "retrain" and user_args["saliency_scorer"]):
+  if stage == "retrain":
 
     save_path = os.path.join(
       cwd,
@@ -156,8 +156,8 @@ def make_folders(save_path, args, stage):
   if stage == "retrain":
 
     print(args["model_dir"])
-    os.makedirs(args["model_dir"] + args["dataset"]  + "/model_run_stats/", exist_ok=True)
-    print("\nRationale models saved in: {}\n".format(args["model_dir"] + args["dataset"] ))
+    os.makedirs(save_path + "/model_run_stats/", exist_ok=True)
+    print("\nRationale models saved in: {}\n".format(save_path))
 
   if stage == "evaluate":
 
