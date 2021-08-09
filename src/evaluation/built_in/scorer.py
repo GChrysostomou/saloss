@@ -65,7 +65,7 @@ def conduct_experiments_(model, data, save_path, data_split_name):
             saves the results to a json file under save_path
     """
 
-    if args["saliency_scorer"]: sal_scorer = args["saliency_scorer"] + "-"
+    if args["saliency_scorer"]: sal_scorer = args["saliency_scorer"] + "_"
     else: sal_scorer = ""
 
     pbar = trange(
