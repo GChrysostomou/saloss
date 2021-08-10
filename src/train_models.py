@@ -148,7 +148,7 @@ def test_predictive_performance(test_data_loader, for_rationale = False, output_
     
     else:
 
-        saved_models = glob.glob(args["save_path"] + sal_scorer + "*.pt")
+        saved_models = glob.glob(args["save_path"] + sal_scorer + args["model_abbreviation"] +  "*.pt")
     
     stats_report = {}
 
@@ -159,11 +159,11 @@ def test_predictive_performance(test_data_loader, for_rationale = False, output_
         
         if args.train_on_rat:
 
-            seed = re.sub(sal_scorer + args["importance_metric"] + "-bert", "", current_model.split(".pt")[0].split("/")[-1])
+            seed = re.sub(sal_scorer + args["importance_metric"] + "-" + args.model_abbreviation, "", current_model.split(".pt")[0].split("/")[-1])
 
         else:
 
-            seed = re.sub(sal_scorer + "bert", "", current_model.split(".pt")[0].split("/")[-1])
+            seed = re.sub(sal_scorer + args.model_abbreviation, "", current_model.split(".pt")[0].split("/")[-1])
 
         model = bert(masked_list=[0,101,102], output_dim = output_dims)
      

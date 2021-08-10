@@ -21,7 +21,7 @@ parser.add_argument(
     type = str, 
     help = "select dataset / task", 
     default = "sst", 
-    choices = ["sst", "agnews", "evinf", "adr", "multirc", "subj", "semeval"]
+    choices = ["sst", "agnews", "evinf", "multirc", "semeval"]
 )
 
 parser.add_argument(
