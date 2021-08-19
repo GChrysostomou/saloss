@@ -97,7 +97,7 @@ def chi_scorer(data,tokenizer = None, train_vec = None, extract_rationales = Fal
         
         # chiscore value if word exists in id2word
         # if its unkown then it receives a 0 word
-        chi_score = np.asarray([chi_scores[indx] if indx in id2word else 0 for indx in indexed])
+        chi_score = np.asarray([chi_scores[indx] if indx in id2word else 0. for indx in indexed]).astype(np.float)
         
         chi_score_list.append(list(chi_score))
 

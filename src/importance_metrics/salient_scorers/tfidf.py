@@ -6,6 +6,7 @@ import logging
 from src.extractor.thresholders import thresholders
 from src.utils.assistant import query_masker
 import json
+from tqdm import tqdm
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from src.importance_metrics.salient_scorers import linguist
@@ -66,7 +67,7 @@ def tfidf_scorer(data,tokenizer = None, train_vec = None, extract_rationales = F
 
     tfidf_score_list = []
 
-    for i, doc in enumerate(tfidfs):
+    for i, doc in tqdm(enumerate(tfidfs), desc="computing tfidf scores"):
         
         # index sentences according to vocabulary entry
         # if the word does not exist place a -1 to recognise unkowns
@@ -79,11 +80,11 @@ def tfidf_scorer(data,tokenizer = None, train_vec = None, extract_rationales = F
             text = np.asarray([x.split("_")[0] for x in text])
 
         indexed = [word2id[w] if w in word2id else -1 for w in text]
-        
+
         # tfidf value if word exists in id2word
         # if its unkown then it receives a 0 word
-        tfidf_score = np.asarray([doc[indx] if indx in id2word else 0 for indx in indexed])
-
+        tfidf_score = np.asarray([doc[indx] if indx in id2word else 0. for indx in indexed]).astype(np.float)
+        
         tfidf_score_list.append(list(tfidf_score))
 
 

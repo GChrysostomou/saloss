@@ -211,10 +211,15 @@ def extractor_(data_as_df, data_split_name, tokenizer, thresholder_name):
             full_doc = tokenizer.convert_tokens_to_string(full_doc)
             
             if args.query:
+                
+                if args.model_abbreviation == "roberta":
+                    query_end = sos_eos[2]
+                    step = 2
+                else:
+                    query_end = sos_eos[1]
+                    step =1 
 
-                query_end = sos_eos[1]
-            
-                query = tokenizer.convert_ids_to_tokens(sequence_text[seq_length + 1:query_end])
+                query = tokenizer.convert_ids_to_tokens(sequence_text[seq_length + step:query_end])
                 query = tokenizer.convert_tokens_to_string(query)
 
             sequence_importance = importance_scores[annotation_id][feature_attribution][:seq_length]

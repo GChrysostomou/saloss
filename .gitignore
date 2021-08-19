@@ -2,7 +2,7 @@ datasets/
 experiment_config/
 experiment_logs/
 *.sh
-test_flip/*/*of.json
+evaluation_results/*/*of.json
 models/
 rationale_models/
 extracted_rationales/

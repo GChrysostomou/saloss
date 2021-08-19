@@ -164,19 +164,19 @@ class TextRank4Keyword():
         self.node_weight = node_weight
 
     # added to make it more functionable for our purposes
-    def return_scored_sequence(self, text, candidates, window_size = 8, lower = False):
+    def return_scored_sequence(self, text, tokenizer, candidates, window_size = 8, lower = False):
         self.node_weight  = None
 
         add_after = False
 
-        if "[CLS]" in text.split():
+        if tokenizer.cls_token in text.split():
         
             add_after = True
             or_length = len(text.split())
 
-            if "[PAD]" in text.split():
+            if tokenizer.pad_token in text.split():
 
-                ind = text.split().index("[PAD]")
+                ind = text.split().index(tokenizer.pad_token)
 
             else:
 
@@ -235,7 +235,7 @@ def text_ranker(data, tokenizer = None, extract_rationales = False):
     tqdm.pandas(desc = "calculating text-rank scores", position = 0, leave = True)
 
     data["salient_scores"] = data.text__.progress_apply(
-        lambda x : tr4w.return_scored_sequence(x, candidates = args["linguistic_feature"]),
+        lambda x : tr4w.return_scored_sequence(x, candidates = args["linguistic_feature"], tokenizer = tokenizer),
     )
 
     logging.info("extracted textrank rationales")
