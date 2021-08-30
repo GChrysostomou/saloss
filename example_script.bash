@@ -17,13 +17,15 @@ done
 python train_on_full.py -dataset $task_name -model_dir $model_dir --evaluate_models
 python train_on_full.py -dataset $task_name  -model_dir $model_dir --saliency_scorer $sal_scorer --evaluate_models
 
-# evaluate on fraction of tokens
-python evaluate_on_flips.py -dataset $task_name -model_dir $model_dir -evaluation_dir $evaluation_dir 
-python evaluate_on_flips.py -dataset $task_name -model_dir $model_dir -evaluation_dir $evaluation_dir --saliency_scorer $sal_scorer
+
 
 # extract rationales for all importance metrics
 python extract_rationales.py -dataset $task_name -model_dir $model_dir --saliency_scorer $sal_scorer
 python extract_rationales.py -dataset $task_name -model_dir $model_dir 
+
+# evaluate on fraction of tokens
+python evaluate_on_flips.py -dataset $task_name -model_dir $model_dir -evaluation_dir $evaluation_dir 
+python evaluate_on_flips.py -dataset $task_name -model_dir $model_dir -evaluation_dir $evaluation_dir --saliency_scorer $sal_scorer
 
 ### retrain models on rationales for a particular feature attribution
 ### in this example attention

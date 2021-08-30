@@ -18,6 +18,8 @@ You can run the jupyter notebooks found under tasks/*task_name*/\*ipynb to gener
 
 ## Training and Evaluating the models
 
+### Training on full text
+
 You can train the models on full text using the following options: 
 
 * dataset : *{"sst", "agnews", "evinf", "multirc", "semeval"}*
@@ -35,18 +37,18 @@ done
 python train_on_full.py -dataset $task_name -model_dir $model_dir --evaluate_models
 ```
 
-simply add ```--saliency_scorer $sal_scorer``` if you want to add a particular saliency scorer
+simply add ```--saliency_scorer $sal_scorer``` if you want to add a particular saliency scorer in the above and <b>ANY</b> of the following.
 
-Example script (with Lin-TaSc):
+### Evaluating on frac of tokens
 
+``` 
+python evaluate_on_flips.py -dataset $task_name -model_dir $model_dir -evaluation_dir $evaluation_dir 
 ```
 
-python train_eval_bc.py -dataset sst 
-			-encoder lstm 
-			-mechanism dot 
-			-data_dir data/ 
-			-model_dir models/ 
-			-lin
+### Extracting rationales
+
+```
+python extract_rationales.py -dataset $task_name -model_dir $model_dir 
 ```
 
 ## Summarising results
