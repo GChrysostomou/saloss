@@ -18,6 +18,8 @@ You can run the jupyter notebooks found under tasks/*task_name*/\*ipynb to gener
 
 ## Training and Evaluating the models
 
+We include an [example_script.sh](https://github.com/GChrysostomou/sal-loss_/blob/main/example_script.sh) were by you can see how to run experiments for baseline and saloss (ours). For more details see the sections below.
+
 ### Training on full text
 
 You can train the models on full text using the following options: 
