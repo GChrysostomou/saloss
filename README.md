@@ -1,6 +1,6 @@
 ## SaLoss
 
-Repository for the paper *"Enjoy the Salience: Towards Better Transformer-based FaithfulExplanations with Word Salience", G.Chrysostomou and N.Aletras, to appear at EMNLP2021*. Pre-print available at this [link](https://arxiv.org/pdf/*)
+Repository for the paper *"Enjoy the Salience: Towards Better Transformer-based Faithful Explanations with Word Salience", G.Chrysostomou and N.Aletras, to appear at EMNLP2021*. Pre-print available at this [link](https://arxiv.org/pdf/*)
 
 ## Prerequisites
 
