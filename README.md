@@ -34,9 +34,15 @@ and running the following script:
 ``` 
 for seed in 100 200 300
 do
-python train_on_full.py -dataset $task_name -model_dir $model_dir --seed $seed 
+python train_on_full.py -dataset $task_name \
+                        -data_dir $data_dir \
+                        -model_dir $model_dir \ 
+                        --seed $seed 
 done
-python train_on_full.py -dataset $task_name -model_dir $model_dir --evaluate_models
+python train_on_full.py -dataset $task_name \
+                        -data_dir $data_dir \
+                        -model_dir $model_dir \ 
+                        --evaluate_models
 ```
 
 simply add ```--saliency_scorer $sal_scorer``` if you want to add a particular saliency scorer in the above and <b>ANY</b> of the following.
@@ -46,7 +52,10 @@ simply add ```--saliency_scorer $sal_scorer``` if you want to add a particular s
 * extracted_rationale_dir : *directory where to store extracted rationales and importance scores* 
 
 ```
-python extract_rationales.py -dataset $task_name -model_dir $model_dir -extracted_rationale_dir $extract_rat_dir
+python extract_rationales.py -dataset $task_name \
+                             -data_dir $data_dir \
+                             -model_dir $model_dir \
+                             -extracted_rationale_dir $extract_rat_dir
 ```
 
 ### Evaluating on frac of tokens
@@ -54,7 +63,10 @@ python extract_rationales.py -dataset $task_name -model_dir $model_dir -extracte
 * evaluation_dir : *directory where to save frac of results*
 
 ``` 
-python evaluate_on_flips.py -dataset $task_name -model_dir $model_dir -evaluation_dir $evaluation_dir 
+python evaluate_on_flips.py -dataset $task_name \
+                            -data_dir $data_dir \
+                            -model_dir $model_dir \
+                            -evaluation_dir $evaluation_dir 
 ```
 
 ### Training on rationales 
@@ -67,9 +79,22 @@ It is important to train on rationales using the following argument ```--train_o
 ```
 for seed in 100 200 300
 do
-python train_on_full.py -dataset $task_name -data_dir $rat_data_dir -model_dir $rat_model_dir --seed $seed --train_on_rat  --importance_metric "attention" --thresholder $thresh
+python train_on_full.py -dataset $task_name \
+                        -data_dir $rat_data_dir \
+                        -model_dir $rat_model_dir \
+                        --seed $seed \
+                        --train_on_rat  \
+                        --importance_metric "attention" \
+                        --thresholder $thresh
 done
-python train_on_full.py -dataset $task_name -data_dir $rat_data_dir -model_dir $rat_model_dir --evaluate_models --train_on_rat  --importance_metric "attention" --thresholder $thresh
+python train_on_full.py -dataset $task_name \
+                        -data_dir $rat_data_dir \
+                        -model_dir $rat_model_dir \
+                        --seed $seed \
+                        --train_on_rat  \
+                        --importance_metric "attention" \
+                        --thresholder $thresh \
+                        --evaluate_models
 ```
 
 
