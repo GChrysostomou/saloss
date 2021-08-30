@@ -7,3 +7,5 @@ models/
 rationale_models/
 extracted_rationales/
 *.out
+rationale_models/
+evaluation_results/

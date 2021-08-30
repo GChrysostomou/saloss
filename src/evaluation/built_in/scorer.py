@@ -23,8 +23,29 @@ torch.cuda.manual_seed(25)
 np.random.seed(25)
 
 
-def register_flips_(model, model_inputs, ranking, original_prediction, original_sentences, 
-                    rows, results_dictionary, no_of_tokens, feat_attr_name):
+def register_flips_(
+    model : torch.nn.Module, model_inputs : dict[str], ranking : torch.tensor, 
+    original_prediction : torch.tensor, original_sentences : torch.tensor, 
+    rows : torch.tensor, results_dictionary : dict[str], no_of_tokens : int, 
+    feat_attr_name : str
+    ):
+
+    """
+    registers if flips occur in an immutable dictionary
+    Inputs: 
+        model : torch.nn.Module -> finetuned model
+        model_inputs : dic -> dictionary containing the model inputs
+        ranking : torch.tensor -> rankings of words from most important to least
+        original_prediction : torch.tensor -> model output predictions (distribution)
+        original_sentences : torch.tensor -> original input ids
+        rows : torch.arange -> just used to select in the ranking (size batch)
+        results_dictionary : dic -> nested dictionary to store the results in the format dic[instance_idx][feature_attribution]
+        no_of_tokens : int -> number of tokens to be masked
+        feat_attr_name : str -> name of feature attribution used for storing results
+
+    Outputs:
+        returns None -> results stored in results_dictionary    
+    """
 
     mask = torch.zeros(model_inputs["sentences"].shape).to(device)
                
@@ -50,6 +71,7 @@ def register_flips_(model, model_inputs, ranking, original_prediction, original_
                 
                 pass
 
+    return
 
 import os
 
