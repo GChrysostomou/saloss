@@ -25,7 +25,7 @@ You can train the models on full text using the following options:
 * dataset : *{"sst", "agnews", "evinf", "multirc", "semeval"}*
 * data_dir : *directory where task data is* 
 * model_dir : *directory for saved models*
-* saliency_scorer : *{None, "textrank", "tfidf","chisquared"}*
+* saliency_scorer : *{None, "textrank", "tfidf","chisquared", "uniform"}*
 
 and running the following script:
 
@@ -39,29 +39,38 @@ python train_on_full.py -dataset $task_name -model_dir $model_dir --evaluate_mod
 
 simply add ```--saliency_scorer $sal_scorer``` if you want to add a particular saliency scorer in the above and <b>ANY</b> of the following.
 
+### Extracting rationales
+
+* extracted_rationale_dir : *directory where to store extracted rationales and importance scores* 
+
+```
+python extract_rationales.py -dataset $task_name -model_dir $model_dir -extracted_rationale_dir $extract_rat_dir
+```
+
 ### Evaluating on frac of tokens
+
+* evaluation_dir : *directory where to save frac of results*
 
 ``` 
 python evaluate_on_flips.py -dataset $task_name -model_dir $model_dir -evaluation_dir $evaluation_dir 
 ```
 
-### Extracting rationales
+### Training on rationales 
+
+It is important to train on rationales using the following argument ```--train_on_rat```
+
+* importance_metric : *{"attention", "scaled_attention", "gradients", "ig"}*
+* thresholder : *{topk, contigious}*
 
 ```
-python extract_rationales.py -dataset $task_name -model_dir $model_dir 
+for seed in 100 200 300
+do
+python train_on_full.py -dataset $task_name -data_dir $rat_data_dir -model_dir $rat_model_dir --seed $seed --train_on_rat  --importance_metric "attention" --thresholder $thresh
+done
+python train_on_full.py -dataset $task_name -data_dir $rat_data_dir -model_dir $rat_model_dir --evaluate_models --train_on_rat  --importance_metric "attention" --thresholder $thresh
 ```
+
 
 ## Summarising results
 
-Following the evaluation for multiple models / attention mechanisms , with and without TaSc, you can use [produce_reports.py](https://github.com/GChrysostomou/tasc/blob/master/produce_reports.py) to create tables in latex and as csv for the full stack of results (as a comparison), a table for comparing with other explanation techniques, results across attention mechanism, encoder and dataset. 
-
-The script can be run with the following options:
-
-* datasets: *list of datasets with permissible datasets listed above*
-* encoders: *list of encoders with permissible encoders listed above*
-* experiments_dir: *directory that contains saved results to use for summarising followed by /*
-* mechanisms: *selection of attention mechanism with options {Tanh, Dot}*
-* tasc_ver : *tasc version with options {lin, feat, conv}*
-
-To generate radar plots you can run ```python produce_graphs.py```([produce_graphs.py](https://github.com/GChrysostomou/tasc/blob/master/produce_graphs.py)).
-
+To create the tables and figures seen in the paper you can run the [generate_results.py](https://github.com/GChrysostomou/sal-loss_/blob/main/src/utils/generate_results.py) script.

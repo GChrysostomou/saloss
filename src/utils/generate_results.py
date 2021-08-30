@@ -8,8 +8,7 @@ import sys, os
 from sklearn.feature_extraction.text import TfidfVectorizer
 import matplotlib.pyplot as plt
 import torch
-
-
+import json
 
 def encode_it(tokenizer, max_length, *arguments):
 
@@ -297,3 +296,15 @@ def _get_frac_of_(eval_dir : str = "evaluation_results",
     
     return
 
+if __name__ == "__main__":
+
+    _get_frac_of_()
+
+
+    for dataset in {"sst", "agnews", "evinf"}:
+
+        print(f"** pos analysis for {dataset}")
+
+        _pos_analysis_(dataset = dataset)
+
+    exit()
