@@ -1,6 +1,14 @@
-datasets/*/.ipynb_checkpoints/
-datasets/*/data/
+datasets/sst/.ipynb_checkpoints/
+datasets/sst/data/
+datasets/multirc/.ipynb_checkpoints/
+datasets/multirc/data/
 datasets/multirc/multirc/
+datasets/agnews/.ipynb_checkpoints/
+datasets/agnews/data/
+datasets/semeval/.ipynb_checkpoints/
+datasets/semeval/data/
+datasets/evinf/.ipynb_checkpoints/
+datasets/evinf/data/
 experiment_config/
 experiment_logs/
 *.sh
