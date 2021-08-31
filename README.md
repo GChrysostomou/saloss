@@ -90,7 +90,6 @@ done
 python train_on_full.py -dataset $task_name \
                         -data_dir $rat_data_dir \
                         -model_dir $rat_model_dir \
-                        --seed $seed \
                         --train_on_rat  \
                         --importance_metric "attention" \
                         --thresholder $thresh \
