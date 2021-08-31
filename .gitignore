@@ -1,4 +1,6 @@
-datasets/
+datasets/*/.ipynb_checkpoints/
+datasets/*/data/
+datasets/multirc/multirc/
 experiment_config/
 experiment_logs/
 *.sh

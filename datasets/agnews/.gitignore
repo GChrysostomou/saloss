@@ -1,0 +1,5 @@
+*.csv
+*.tgz
+ag_news_csv/
+.ipynb_checkpoints
+data/
